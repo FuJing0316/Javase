@@ -1,4 +1,4 @@
-package collection.List;
+package collection.ListAndSet;
 
 /**
  * @Author: fujing

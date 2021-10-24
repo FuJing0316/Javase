@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/testImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/List/ListSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/List/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/FanXinClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ListAndSet/FanXinClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/List/ListSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ListAndSet/ListSetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/List/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/ListAndSet/Person.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +23,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1zu6qE2vunj4dHgV83GrQ4pb8L1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -37,13 +55,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MapDemo">
     <configuration name="ListSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.List.ListSetDemo" />
+      <option name="MAIN_CLASS_NAME" value="collection.ListAndSet.ListSetDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.List.*" />
+          <option name="PATTERN" value="collection.ListAndSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Map.MapDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.ListSetDemo" />
       </list>
     </recent_temporary>
@@ -67,20 +99,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634985814178</updated>
-      <workItem from="1634985817638" duration="4302000" />
+      <workItem from="1634985817638" duration="10812000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/collection/List/Person.java</url>
+          <url>file://$PROJECT_DIR$/src/collection/ListAndSet/Person.java</url>
           <line>44</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collection/Map/MapDemo.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
