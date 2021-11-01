@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/stream/StreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/stream/StreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/stream/StreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/stream/CopyFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/file/FileDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -53,9 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo3">
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.file.FileDemo" />
+  <component name="RunManager" selected="Application.CopyFile">
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.stream.CopyFile" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListArrayConver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.ListArrayConver" />
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.file.FileDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="io.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.StreamDemo3" />
         <item itemvalue="Application.StreamDemo2" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.ListArrayConver" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +141,7 @@
       <workItem from="1635070654908" duration="1715000" />
       <workItem from="1635156165417" duration="7738000" />
       <workItem from="1635577658759" duration="9266000" />
+      <workItem from="1635765805637" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
