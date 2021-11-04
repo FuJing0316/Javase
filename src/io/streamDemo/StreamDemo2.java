@@ -1,4 +1,4 @@
-package io.stream;
+package io.streamDemo;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,20 +16,18 @@ import java.io.InputStream;
  * 3、传输数据；
  * 4、关闭流（避免系统资源占用）
  */
-public class StreamDemo3 {
+public class StreamDemo2 {
     public static void main(String[] args) {
         InputStream inputStream = null;
         try {
             /**
-             * 继续优化demo2:
-             *
+             * 优化demo1:能读出文件全部内容
+             * 存在问题：存在问题，每次只能读取一个字节，效率比较低，需要循环N多次
              */
             inputStream = new FileInputStream("abc.txt");
-            byte[] buffer = new byte[1024];
-            int length;
-            //用添加缓冲区的方式进行读取，每次会将数据添加到缓冲区中，当缓冲区满了之后，一次读取，而不是每个字节读取
-            while ((length = inputStream.read(buffer)) != -1) {
-                System.out.println(new String(buffer,0,length));
+            int read ;
+            while ((read = inputStream.read()) != -1) {
+                System.out.println((char) read);
             }
 
         } catch (FileNotFoundException e) {

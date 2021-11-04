@@ -1,4 +1,4 @@
-package io.stream;
+package io.streamDemo;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,20 +16,16 @@ import java.io.InputStream;
  * 3、传输数据；
  * 4、关闭流（避免系统资源占用）
  */
-public class StreamDemo2 {
+public class StreamDemo1 {
     public static void main(String[] args) {
         InputStream inputStream = null;
         try {
             /**
-             * 优化demo1:能读出文件全部内容
-             * 存在问题：存在问题，每次只能读取一个字节，效率比较低，需要循环N多次
+             * 问题：只能读取单个字节
              */
             inputStream = new FileInputStream("abc.txt");
-            int read ;
-            while ((read = inputStream.read()) != -1) {
-                System.out.println((char) read);
-            }
-
+            int read = inputStream.read();//从输入流读取数据的下一个字节，值字节返回int范围0-255
+            System.out.println("read:" + (char) read);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -1,4 +1,4 @@
-package io.stream;
+package io.streamDemo;
 
 import java.io.*;
 
