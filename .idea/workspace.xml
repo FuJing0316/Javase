@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="stream api">
-      <change afterPath="$PROJECT_DIR$/src/io/handlerStream/InputStreamReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/handlerStream/OutPutStreamWriterDemo.java" afterDir="false" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/DataStreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/CopyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/InputstreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/InputstreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/OutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/OutputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/StreamDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/StreamDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/StreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/StreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/stream/StreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/streamDemo/StreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/readerAndwriter/WriterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/readerAndwriter/WriterDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +57,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DataStreamDemo">
     <configuration name="CopyPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.readerAndwriter.CopyPicture" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.readerAndwriter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.DataStreamDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.streamType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReaderDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.readerAndwriter.ReaderDemo3" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.readerAndwriter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.readerAndwriter.WriterDemo" />
       <module name="Javase" />
@@ -131,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStreamDemo" />
         <item itemvalue="Application.InputStreamReaderDemo" />
         <item itemvalue="Application.OutPutStreamWriterDemo" />
         <item itemvalue="Application.CopyPicture" />
         <item itemvalue="Application.WriterDemo" />
-        <item itemvalue="Application.ReaderDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,7 @@
       <workItem from="1635577658759" duration="9266000" />
       <workItem from="1635765805637" duration="5828000" />
       <workItem from="1635936773828" duration="3775000" />
-      <workItem from="1636023399284" duration="2711000" />
+      <workItem from="1636023399284" duration="10370000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -199,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635946849180</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hander stream">
+      <created>1636034255129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636034255129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +225,8 @@
     <MESSAGE value="file api practice" />
     <MESSAGE value="file copy by stream" />
     <MESSAGE value="stream api" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream api" />
+    <MESSAGE value="hander stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="hander stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
