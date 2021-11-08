@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/BufferOutPutStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/BufferedInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/ByteArrayInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/ByteArrayOutPutStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/ObjecInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/ObjectInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/ObjectOutPutStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/streamType/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bb.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,22 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataStreamDemo">
-    <configuration name="CopyPicture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.readerAndwriter.CopyPicture" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.readerAndwriter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.streamType.DataStreamDemo" />
+  <component name="RunManager" selected="Application.ByteArrayInputStreamDemo">
+    <configuration name="BufferOutPutStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.BufferOutPutStreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.handlerStream.InputStreamReaderDemo" />
+    <configuration name="BufferedInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.BufferedInputStreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.handlerStream.*" />
+          <option name="PATTERN" value="io.streamType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutPutStreamWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.handlerStream.OutPutStreamWriterDemo" />
+    <configuration name="ByteArrayInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.ByteArrayInputStreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.handlerStream.*" />
+          <option name="PATTERN" value="io.streamType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.readerAndwriter.WriterDemo" />
+    <configuration name="ObjecInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.ObjecInputStreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.readerAndwriter.*" />
+          <option name="PATTERN" value="io.streamType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectOutPutStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.streamType.ObjectOutPutStreamDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.streamType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataStreamDemo" />
-        <item itemvalue="Application.InputStreamReaderDemo" />
-        <item itemvalue="Application.OutPutStreamWriterDemo" />
-        <item itemvalue="Application.CopyPicture" />
-        <item itemvalue="Application.WriterDemo" />
+        <item itemvalue="Application.ByteArrayInputStreamDemo" />
+        <item itemvalue="Application.BufferedInputStreamDemo" />
+        <item itemvalue="Application.BufferOutPutStreamDemo" />
+        <item itemvalue="Application.ObjecInputStreamDemo" />
+        <item itemvalue="Application.ObjectOutPutStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +158,9 @@
       <workItem from="1635765805637" duration="5828000" />
       <workItem from="1635936773828" duration="3775000" />
       <workItem from="1636023399284" duration="11013000" />
-      <workItem from="1636279883136" duration="713000" />
+      <workItem from="1636279883136" duration="4700000" />
+      <workItem from="1636367346049" duration="1254000" />
+      <workItem from="1636370199387" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
