@@ -1,4 +1,4 @@
-package io.readerAndwriter;
+package io.readerOrWriter;
 
 
 import java.io.*;
