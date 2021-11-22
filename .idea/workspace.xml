@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/io/RandomAccessFileTest.java" afterDir="false" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="将一个大文件拆分，分块随机读取">
+      <change afterPath="$PROJECT_DIR$/src/thread/demo/RunableThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/demo/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Court.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/proxy/KindPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Lawyer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bb.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -61,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessFileTest">
+  <component name="RunManager" selected="Application.Court">
     <configuration name="BaiDuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.excise.BaiDuTest" />
       <module name="Javase" />
@@ -75,25 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExitPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.excise.ExitPractice" />
+    <configuration name="Court" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.proxy.Court" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.excise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.readerOrWriter.PrintStreamTest" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.readerOrWriter.*" />
+          <option name="PATTERN" value="thread.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="charArrayWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.readerOrWriter.charArrayWriterDemo" />
+    <configuration name="RunableThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.demo.RunableThreadDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.readerOrWriter.*" />
+          <option name="PATTERN" value="thread.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.demo.ThreadDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Court" />
+        <item itemvalue="Application.RunableThreadDemo" />
+        <item itemvalue="Application.ThreadDemo" />
         <item itemvalue="Application.RandomAccessFileTest" />
         <item itemvalue="Application.BaiDuTest" />
-        <item itemvalue="Application.ExitPractice" />
-        <item itemvalue="Application.PrintStreamTest" />
-        <item itemvalue="Application.charArrayWriterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +169,7 @@
       <workItem from="1636715193448" duration="601000" />
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
-      <workItem from="1637317686661" duration="8003000" />
+      <workItem from="1637317686661" duration="14545000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -256,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637149924602</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="将一个大文件拆分，分块随机读取">
+      <created>1637411577022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637411577022</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +300,8 @@
     <MESSAGE value="stream type" />
     <MESSAGE value="常用IO流" />
     <MESSAGE value="IO练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO练习" />
+    <MESSAGE value="将一个大文件拆分，分块随机读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="将一个大文件拆分，分块随机读取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
