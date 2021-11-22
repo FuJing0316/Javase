@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="将一个大文件拆分，分块随机读取">
-      <change afterPath="$PROJECT_DIR$/src/thread/demo/RunableThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/demo/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Court.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/proxy/KindPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/proxy/Lawyer.java" afterDir="false" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/saleTicket/TicketRunable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/saleTicket/TicketRunable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/saleTicket/TicketRunable3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/saleTicket/TicketThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +40,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="collection.List" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\my_codespace\Javase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.saleTicket" />
       <recent name="io.excise" />
       <recent name="io.readerAndwriter" />
       <recent name="io.stream" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\D\my_codespace\Javase" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.List" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -67,20 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Court">
-    <configuration name="BaiDuTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.excise.BaiDuTest" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.excise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TicketRunable2">
     <configuration name="Court" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.proxy.Court" />
       <module name="Javase" />
@@ -94,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomAccessFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.RandomAccessFileTest" />
+    <configuration name="TicketRunable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.saleTicket.TicketRunable" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="thread.saleTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunableThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.demo.RunableThreadDemo" />
+    <configuration name="TicketRunable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.saleTicket.TicketRunable2" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.demo.*" />
+          <option name="PATTERN" value="thread.saleTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.demo.ThreadDemo" />
+    <configuration name="TicketThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.saleTicket.TicketThread" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.saleTicket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.demo.prc" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketRunable2" />
+        <item itemvalue="Application.TicketRunable" />
+        <item itemvalue="Application.TicketThread" />
+        <item itemvalue="Application.prc" />
         <item itemvalue="Application.Court" />
-        <item itemvalue="Application.RunableThreadDemo" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.RandomAccessFileTest" />
-        <item itemvalue="Application.BaiDuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +167,7 @@
       <workItem from="1636715193448" duration="601000" />
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
-      <workItem from="1637317686661" duration="14545000" />
+      <workItem from="1637317686661" duration="19951000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -269,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637411577022</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="线程之设计模式-代理模式">
+      <created>1637582230878</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582230878</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +306,8 @@
     <MESSAGE value="常用IO流" />
     <MESSAGE value="IO练习" />
     <MESSAGE value="将一个大文件拆分，分块随机读取" />
-    <option name="LAST_COMMIT_MESSAGE" value="将一个大文件拆分，分块随机读取" />
+    <MESSAGE value="线程之设计模式-代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程之设计模式-代理模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
