@@ -19,7 +19,17 @@ public class TicketRunable2 implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-            //以下代码片段，存在并发问题，加同步锁
+
+            /**
+             * 增加sleep一段时间，模拟出更真实场景。否则，会出现总是A抢到执行机会，其他BC线程无票卖出的情形。
+             */
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+
             synchronized (this) {
                 if (ticke > 0) {
                     System.out.println(Thread.currentThread().getName() + "正在卖出第:" + ticke-- + ":张票");
@@ -30,9 +40,10 @@ public class TicketRunable2 implements Runnable {
 
     public static void main(String[] args) {
         TicketRunable2 ticketRunable = new TicketRunable2();
-        Thread thread1 = new Thread(ticketRunable);
-        Thread thread2 = new Thread(ticketRunable);
-        Thread thread3 = new Thread(ticketRunable);
+        //用A、B、C三个线程，模拟三个售票窗口
+        Thread thread1 = new Thread(ticketRunable,"A");
+        Thread thread2 = new Thread(ticketRunable,"B");
+        Thread thread3 = new Thread(ticketRunable,"C");
         thread1.start();
         thread2.start();
         thread3.start();

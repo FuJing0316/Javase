@@ -32,7 +32,7 @@ public class TicketRunable3 implements Runnable {
 
 
     /**
-     * 使用同步方法解决多线程不安全的问题
+     * 使用同步方法解决多线程不安全的问题 同步方法，默认锁的就当前对象 this
      */
     private synchronized void sale() {
         if (ticke > 0) {
