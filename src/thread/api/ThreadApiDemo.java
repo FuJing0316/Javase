@@ -49,6 +49,8 @@ public class ThreadApiDemo implements Runnable {
             System.out.println(Thread.currentThread().getName() + "===" + i);
         }
 
+        System.out.println("thread1.isAlive: " + thread1.isAlive());//false
+
     }
 
 
