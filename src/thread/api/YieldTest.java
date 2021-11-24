@@ -10,7 +10,7 @@ public class YieldTest implements Runnable {
 
     @Override
     public void run() {
-        for (int i=0;i<5;i++){
+        for (int i = 0; i < 5; i++) {
             System.out.println(Thread.currentThread().getName() + "===" + i);
         }
     }
@@ -20,14 +20,14 @@ public class YieldTest implements Runnable {
         Thread thread = new Thread(yieldRunable);
         thread.start();
 
-        for (int i=0;i<5;i++){
+        for (int i = 0; i < 5; i++) {
             System.out.println(Thread.currentThread().getName() + "===" + i);
 
             //在i=2时，当前正在执行的线程（此处是main线程）愿意让出一次执行机会，让thread-0先执行，下一次 主线程和thread-0会继续随机抢占资源，谁先抢到谁执行
-            if (i==2){
+            if (i == 2) {
                 Thread.yield();
                 System.out.println(Thread.currentThread().getName() + "礼让一次! 此时i=" + i);
-            }else {
+            } else {
                 System.out.println(Thread.currentThread().getName() + "===" + i);
             }
         }

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/api/SleepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/api/YieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/api/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/api/JoinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/api/YieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/api/YieldTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +163,7 @@
       <workItem from="1636715193448" duration="601000" />
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
-      <workItem from="1637317686661" duration="25501000" />
+      <workItem from="1637317686661" duration="25638000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -294,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637680033377</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="thread api">
+      <created>1637755311875</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637755311875</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +333,8 @@
     <MESSAGE value="线程之设计模式-代理模式" />
     <MESSAGE value="thread" />
     <MESSAGE value="thread 常用api 及同步相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread 常用api 及同步相关" />
+    <MESSAGE value="thread api" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
