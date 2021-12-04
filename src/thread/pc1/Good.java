@@ -3,7 +3,7 @@ package thread.pc1;
 /**
  * @Author: fujing
  * @Date: 2021/12/3
- * @Description: 线程之生产者消费者模式练习
+ * @Description
  * @Version: 1.0
  */
 public class Good {
