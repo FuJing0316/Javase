@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/pc3/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc3/Good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc3/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc3/TestPc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc4/ConsumerQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc4/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc4/ProducerQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc4/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPc (2)">
-    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.api.SleepTest" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.pc4.Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.api.*" />
+          <option name="PATTERN" value="thread.pc4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestPc (2)" />
         <item itemvalue="Application.TestPc (1)" />
         <item itemvalue="Application.TestPc" />
         <item itemvalue="Application.YieldTest" />
-        <item itemvalue="Application.SleepTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="14152000" />
+      <workItem from="1638180750083" duration="17121000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638606793725</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用">
+      <created>1638609854782</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1638609854782</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +371,8 @@
     <MESSAGE value="thread api" />
     <MESSAGE value="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题，good生产过程加锁，保证了生产和获取good的过程不会被打断，不会再出现 品牌名称 不一致的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程之生产者消费者模型：解决V1问题，good生产过程加锁，保证了生产和获取good的过程不会被打断，不会再出现 品牌名称 不一致的问题" />
+    <MESSAGE value="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
