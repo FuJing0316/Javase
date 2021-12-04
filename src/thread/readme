@@ -1,0 +1,8 @@
+pc package : producer and consumer model for thread excise
+producer:生产商品
+consumer：如何有序取走商品
+
+线程之生产者消费者模式练习：
+这个过程，会产生多线程访问共享资源，产生数据安全的问题，如何处理？？？
+
+

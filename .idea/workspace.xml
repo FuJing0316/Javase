@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/thread/api/YieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/api/YieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc1/TestPc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +37,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/thread/pc2" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\D\my_codespace\Javase" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.List" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="thread.saleTicket" />
@@ -45,8 +50,9 @@
       <recent name="io.readerAndwriter" />
       <recent name="io.stream" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="collection.List" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\my_codespace\Javase\src\thread\pc2" />
+      <recent name="C:\D\my_codespace\Javase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.YieldTest">
+  <component name="RunManager" selected="Application.TestPc">
     <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.api.JoinTest" />
       <module name="Javase" />
@@ -88,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.api.ThreadApiDemo" />
+    <configuration name="TestPc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.pc1.TestPc" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.api.*" />
+          <option name="PATTERN" value="thread.pc1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketRunable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.saleTicket.TicketRunable2" />
+    <configuration name="ThreadApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.api.ThreadApiDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.saleTicket.*" />
+          <option name="PATTERN" value="thread.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPc" />
         <item itemvalue="Application.YieldTest" />
         <item itemvalue="Application.SleepTest" />
         <item itemvalue="Application.JoinTest" />
         <item itemvalue="Application.ThreadApiDemo" />
-        <item itemvalue="Application.TicketRunable2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +169,8 @@
       <workItem from="1636715193448" duration="601000" />
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
-      <workItem from="1637317686661" duration="25638000" />
+      <workItem from="1637317686661" duration="26293000" />
+      <workItem from="1638180750083" duration="9403000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -298,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637755311875</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="thread api">
+      <created>1637755424566</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637755424566</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
