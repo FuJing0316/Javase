@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Good.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc1/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/pc1/TestPc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/readme" afterDir="false" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题">
+      <change afterPath="$PROJECT_DIR$/src/thread/pc2/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc2/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc2/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/pc2/TestPc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/pc1/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/pc1/Consumer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestPc">
+  <component name="RunManager" selected="Application.TestPc (1)">
     <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.api.JoinTest" />
       <module name="Javase" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.pc1.TestPc" />
+    <configuration name="TestPc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.pc2.TestPc" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.pc1.*" />
+          <option name="PATTERN" value="thread.pc2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.api.ThreadApiDemo" />
+    <configuration name="TestPc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.pc1.TestPc" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.api.*" />
+          <option name="PATTERN" value="thread.pc1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPc (1)" />
         <item itemvalue="Application.TestPc" />
         <item itemvalue="Application.YieldTest" />
         <item itemvalue="Application.SleepTest" />
         <item itemvalue="Application.JoinTest" />
-        <item itemvalue="Application.ThreadApiDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="9403000" />
+      <workItem from="1638180750083" duration="11006000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637755424566</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题">
+      <created>1638605073120</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1638605073120</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +355,8 @@
     <MESSAGE value="thread" />
     <MESSAGE value="thread 常用api 及同步相关" />
     <MESSAGE value="thread api" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread api" />
+    <MESSAGE value="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
