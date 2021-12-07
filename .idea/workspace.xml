@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/CachedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/RunableTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/pc4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/pc4/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.CachedThreadPoolDemo">
+    <configuration name="CachedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.CachedThreadPoolDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.threadpool.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.pc4.Test" />
       <module name="Javase" />
@@ -117,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.api.YieldTest" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CachedThreadPoolDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestPc (2)" />
         <item itemvalue="Application.TestPc (1)" />
         <item itemvalue="Application.TestPc" />
-        <item itemvalue="Application.YieldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="17955000" />
+      <workItem from="1638180750083" duration="25184000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -344,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638616271292</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="BlockingQueue的作用：简化了V3的线程阻塞、唤醒步骤">
+      <created>1638706469345</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638706469345</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +393,8 @@
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题--JUC方案，BlockingQueue方式" />
     <MESSAGE value="miner fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="miner fix" />
+    <MESSAGE value="BlockingQueue的作用：简化了V3的线程阻塞、唤醒步骤" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlockingQueue的作用：简化了V3的线程阻塞、唤醒步骤" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
