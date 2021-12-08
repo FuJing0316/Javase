@@ -13,10 +13,12 @@ import java.util.concurrent.Executors;
 /**
  * Executors : 一个工具/工厂类。提供了获取 Executor、ExecutorService、ScheduledExecutorService、ThreadFactory、Callable对象的一些方法。
  * newCachedThreadPool：
- * 当线程池里原有线程够用，会先重用原有线程,在原有线程不够用时，会根据需要创建新线程，
+ * 当线程池里原有线程够用时，会先重用原有线程,当原有线程不够用时，会根据需要创建新线程（在需要创建线程时会使用ThreadFactory来进行创建）。
  *
  * 特点：
- * 1、
+ * 1、线程池中的线程没有固定数量，最大线程数是int的最大值；
+ * 2、线程池中的线程可以缓存重复利用和回收。（空闲线程默认的回收时间是1分钟）
+ * 3、当线程池中没有可用线程，会创建一个新线程
  */
 public class CachedThreadPoolDemo {
     public static void main(String[] args) {
