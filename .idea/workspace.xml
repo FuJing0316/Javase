@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/FixedThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/threadpool/category/CachedThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/threadpool/category/CachedThreadPoolDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +167,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="31511000" />
+      <workItem from="1638180750083" duration="32185000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -379,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639137821327</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1、newCachedThreadPool">
+      <created>1639137942679</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1639137942679</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
