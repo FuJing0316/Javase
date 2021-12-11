@@ -19,7 +19,7 @@ import java.util.concurrent.Future;
  * 特点：
  * 1、线程池中最多执行一个线程，之后提交的线程任务都会在队列中等候。
  */
-public class SingerThreadPoolDmo {
+public class SingerThreadPoolExecutorDemo {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
 //        executorService.execute(new RunableTask());

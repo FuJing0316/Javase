@@ -66,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingerThreadPoolDmo">
+  <component name="RunManager" selected="Application.SingerThreadPoolExecutorDemo">
     <configuration name="CachedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.CachedThreadPoolDemo" />
       <module name="Javase" />
@@ -93,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingerThreadPoolDmo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingerThreadPoolDmo" />
+    <configuration name="SingerThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingerThreadPoolExecutorDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingerThreadPoolDmo" />
+        <item itemvalue="Application.SingerThreadPoolExecutorDemo" />
         <item itemvalue="Application.FixedThreadPoolDemo" />
         <item itemvalue="Application.CachedThreadPoolDemo" />
         <item itemvalue="Application.Test" />
