@@ -14,12 +14,12 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * ScheduledThreadPoolExecutor，可以在指定延迟后 或 定时执行提交到线程池中的定时任务。有两种创建方式
- * newScheduledThreadPool(int coreThreads) : 创建一个指定线程数量的线程池，即使是空线程也将保留。
- * newSingleThreadshceduledPool():创建一个单线程执行的线程池。
+ *      newScheduledThreadPool(int coreThreads) : 创建一个指定线程数量的线程池，即使是空线程也将保留。
+ *      newSingleThreadshceduledPool():创建一个单线程执行的线程池。
  * <p>
  * <p>
  * ScheduledThreadPoolExecutor特点：
- * 可以延迟指定时间、或定时执行线程活动。
+ *      可以延迟指定时间、或定时执行线程活动。
  */
 
 public class ScheduleThreadPoolDemo {
