@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/SingerThreadPoolDmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/ScheduleThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/threadpool/category/RunableTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/threadpool/category/RunableTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingerThreadPoolExecutorDemo">
+  <component name="RunManager" selected="Application.ScheduleThreadPoolDemo">
     <configuration name="CachedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.CachedThreadPoolDemo" />
       <module name="Javase" />
@@ -82,6 +81,19 @@
     </configuration>
     <configuration name="FixedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.FixedThreadPoolDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.threadpool.category.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduleThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.ScheduleThreadPoolDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -119,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPc (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.pc3.TestPc" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.pc3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScheduleThreadPoolDemo" />
         <item itemvalue="Application.SingerThreadPoolExecutorDemo" />
         <item itemvalue="Application.FixedThreadPoolDemo" />
         <item itemvalue="Application.CachedThreadPoolDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestPc (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="40237000" />
+      <workItem from="1638180750083" duration="41695000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -419,7 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639218621326</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="SingleThreadPool">
+      <created>1639219586781</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1639219586781</updated>
+    </task>
+    <task id="LOCAL-00037" summary="SingleThreadPool">
+      <created>1639219704135</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1639219704135</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="File练习" />
     <MESSAGE value="file api practice" />
     <MESSAGE value="file copy by stream" />
     <MESSAGE value="stream api" />
@@ -465,7 +477,8 @@
     <MESSAGE value="1、FixedThreadPool" />
     <MESSAGE value="2/FixedThreadPoolDemo" />
     <MESSAGE value="cached thread pool supplement" />
-    <option name="LAST_COMMIT_MESSAGE" value="cached thread pool supplement" />
+    <MESSAGE value="SingleThreadPool" />
+    <option name="LAST_COMMIT_MESSAGE" value="SingleThreadPool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
