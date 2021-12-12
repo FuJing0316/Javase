@@ -17,6 +17,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  *    入队与出队都用同一把锁
  *    在只有入队高并发 或 出队高并发的情况下，因为操作数组，且不需要扩容，性能很高
  *    采用了数组，必须指定大小，即容量有限
+ *
  *  LinkedBlockingQueue： 一个单向链表 + 两把锁 + 两个条件
  *    两把锁，一把用于入队，一把用于出队，有效的避免了入队与出队时使用一把锁带来的竞争。
  *    在入队与出队都高并发的情况下，性能比ArrayBlockingQueue高很多
