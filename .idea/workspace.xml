@@ -172,7 +172,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="44847000" />
+      <workItem from="1638180750083" duration="46945000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -461,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639223030421</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ScheduledThreadPool之定期执行线程活动">
+      <created>1639303784577</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1639303784577</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="hander stream" />
     <MESSAGE value="DataOutputStream" />
     <MESSAGE value="stream type" />
     <MESSAGE value="常用IO流" />
@@ -507,7 +513,8 @@
     <MESSAGE value="ScheduledThreadPool：用法一，线程任务提交后，延迟一段时间执行" />
     <MESSAGE value="ScheduledThreadPool" />
     <MESSAGE value="ScheduledThreadPool:用法二，从指定时间开始，定期执行线程任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScheduledThreadPool:用法二，从指定时间开始，定期执行线程任务" />
+    <MESSAGE value="ScheduledThreadPool之定期执行线程活动" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScheduledThreadPool之定期执行线程活动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

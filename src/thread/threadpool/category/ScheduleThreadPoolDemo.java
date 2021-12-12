@@ -56,7 +56,7 @@ public class ScheduleThreadPoolDemo {
         }
 
 
-        //关闭线程池
-        scheduledExecutorService.shutdown();
+//        //关闭线程池
+//        scheduledExecutorService.shutdown();
     }
 }

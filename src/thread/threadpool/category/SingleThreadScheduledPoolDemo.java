@@ -28,21 +28,20 @@ public class SingleThreadScheduledPoolDemo {
         }*/
 
 
-
         /**
          * 定期执行线程任务：
          */
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 3; i++) {
             scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
                     System.out.println("定期执行线程任务：第一次延迟1秒执行，之后每3秒执行一次。。。");
-                    System.out.println("run end:" + System.currentTimeMillis());//每个线程执行结束输出
+                    System.out.println(Thread.currentThread().getName() +"--run end---" + System.currentTimeMillis());//每个线程执行结束输出
                 }
             }, 1, 3, TimeUnit.SECONDS);
         }
 
-        //关闭线程池
-        scheduledExecutorService.shutdown();
+//        //定期执行期间，如果任务没执行结束，线程池暂时不能关闭
+//        scheduledExecutorService.shutdown();
     }
 }
