@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/forkJoinPoolDemo/ForkJoinPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/forkJoinPoolDemo/PrintTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/forkJoinPoolDemo/SumTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/category/forkJoinPoolDemo/WorkStealingPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thread/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/readme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +170,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="50624000" />
+      <workItem from="1638180750083" duration="51313000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -485,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639308486789</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="WorkStealingPool test">
+      <created>1639309828328</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1639309828328</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="常用IO流" />
     <MESSAGE value="IO练习" />
     <MESSAGE value="将一个大文件拆分，分块随机读取" />
     <MESSAGE value="线程之设计模式-代理模式" />
@@ -531,7 +532,8 @@
     <MESSAGE value="ScheduledThreadPool之定期执行线程活动" />
     <MESSAGE value="ScheduledThreadPool之定期执行线程活动: 线程任务执行期间，线程池连接不能关闭" />
     <MESSAGE value="summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="summary" />
+    <MESSAGE value="WorkStealingPool test" />
+    <option name="LAST_COMMIT_MESSAGE" value="WorkStealingPool test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
