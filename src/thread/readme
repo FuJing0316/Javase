@@ -23,4 +23,4 @@ ExecutorService: interface。执行器对象，extends Executor，提供了可�
 线程池分类（依据执行器来分）：
    第一类，常见的 ExecutorService --> ThreadPoolExecutor
    第二类，带定时调度的 ScheduledExecutorService --> ScheduledThreadPoolExecutor
-   第三类，多任务并行执行的（fork 内核级别的并行指令）ExecutorService（即：WorkStealingThreadPool）--> ForkJoinPool
+   第三类，多任务并行处理的ExecutorService（即：WorkStealingThreadPool）--> ForkJoinPool. 默认的并行级别，是Java虚拟机可用的处理器数量。
