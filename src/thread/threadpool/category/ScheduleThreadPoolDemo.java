@@ -49,10 +49,10 @@ public class ScheduleThreadPoolDemo {
             scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println("定期执行线程任务：当前时间开始，每1秒执行一次");
+                    System.out.println("定期执行线程任务：首次执行延迟一秒，其后每3秒执行一次。。。");
                     System.out.println("run end:" + System.currentTimeMillis());//每个线程执行结束输出
                 }
-            }, System.currentTimeMillis(), 1000, TimeUnit.MILLISECONDS);
+            }, 1, 3, TimeUnit.SECONDS);
         }
 
 
