@@ -17,6 +17,13 @@ import java.util.concurrent.BlockingQueue;
  *
  * 根据构造方法参数的设置，可以设置锁机制（公平锁/非公平锁），默认非公平锁，即谁先抢到，谁现执行。
  */
+
+/**
+ * AraayBlockingQueue VS LinkedBlockingQueue:  容量和锁数量有区别
+ *  1、AraayBlockingQueue 出队入队使用同一把锁，适用于 出队或入队有高并发的场景。 容量为数组长度。
+ *  2、LinkedBlockingQueue 出队、入队各用一把锁，适用于 出队入队 并发量都比较高的场景。 容量未指定的话，默认int最大值，可看作无界。
+ *
+ */
 public class ArrayBlockingQueueDemo {
     public static void main(String[] args) {
 
