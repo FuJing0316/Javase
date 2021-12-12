@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/threadpool/category/ScheduleThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/threadpool/category/ScheduleThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/threadpool/category/SingleThreadScheduledPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/threadpool/category/SingleThreadScheduledPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/readme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +171,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="46945000" />
+      <workItem from="1638180750083" duration="49231000" />
     </task>
     <task id="LOCAL-00001" summary="常用类练习">
       <created>1635244506041</created>
@@ -468,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639303784577</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ScheduledThreadPool之定期执行线程活动: 线程任务执行期间，线程池连接不能关闭">
+      <created>1639305826303</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1639305826303</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DataOutputStream" />
     <MESSAGE value="stream type" />
     <MESSAGE value="常用IO流" />
     <MESSAGE value="IO练习" />
@@ -514,7 +519,8 @@
     <MESSAGE value="ScheduledThreadPool" />
     <MESSAGE value="ScheduledThreadPool:用法二，从指定时间开始，定期执行线程任务" />
     <MESSAGE value="ScheduledThreadPool之定期执行线程活动" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScheduledThreadPool之定期执行线程活动" />
+    <MESSAGE value="ScheduledThreadPool之定期执行线程活动: 线程任务执行期间，线程池连接不能关闭" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScheduledThreadPool之定期执行线程活动: 线程任务执行期间，线程池连接不能关闭" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

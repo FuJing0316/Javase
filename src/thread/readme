@@ -9,11 +9,18 @@ consumer：如何有序取走商品
 
 
 线程池：
-Executor：interface。执行器对象，提供了可供新线程、线程池调用的execute()方法，可以执行一个runnable task。
+Executor：interface。线程池执行器对象，提供了可供新线程、线程池调用的execute()方法，可以执行一个runnable task。
 
-Executors：class. JUC包中，线程池创建的一个工厂类。提供了各类线程池创建方法，并返回ExecutorService（执行器）对象。
+Executors：class. JUC包中各类线程池创建的一个工厂类。提供了线程池创建方法，通过此类可以获取到线程池ExecutorService对象。
 ExecutorService: interface。执行器对象，extends Executor，提供了可被线程池对象调用的 submit(RunableTask t)、shutdown()服务方法。
 
 面试点：Executor.execute(RunableTask t)/ExecutorService.excute(RunableTask t)  和 ExecutorService.submit(RunableTask t)异同？
 1、前者execute()方法没有返回值，后者返回一个Future对象（任务执行进度）。
 2、execute()只能提交 RunableTask，submit()既可以提交RunableTask,也可以提交CallableTask
+
+
+
+线程池分类（依据执行器来分）：
+   第一类，常见的 ExecutorService --> ThreadPoolExecutor
+   第二类，带定时调度的 ScheduledExecutorService --> ScheduledThreadPoolExecutor
+   第三类，多任务并行执行的（fork 内核级别的并行指令）ExecutorService（即：WorkStealingThreadPool）--> ForkJoinPool
