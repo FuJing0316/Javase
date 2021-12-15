@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/net/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/client/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/server/Server2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +43,11 @@
       <recent name="collection.List" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.server" />
+      <recent name="net.client" />
       <recent name="thread.saleTicket" />
       <recent name="io.excise" />
       <recent name="io.readerAndwriter" />
-      <recent name="io.stream" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\D\my_codespace\Javase\src\thread\pc3" />
@@ -66,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.blockingqueue.ArrayBlockingQueue.ArrayBlockingQueueDemo" />
+  <component name="RunManager" selected="Application.Client2">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.client.Client" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threadpool.blockingqueue.ArrayBlockingQueue.*" />
+          <option name="PATTERN" value="net.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.client.Client" />
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.client.Client2" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.ThreadPoolDemo" />
+    <configuration name="Server2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.server.Server2" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threadpool.*" />
+          <option name="PATTERN" value="net.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Server2" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.NetDemo" />
-        <item itemvalue="Application.ThreadPoolDemo" />
-        <item itemvalue="Application.ArrayBlockingQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +173,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="64344000" />
-    </task>
-    <task id="LOCAL-00005" summary="file copy by stream">
-      <created>1635867620935</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1635867620935</updated>
+      <workItem from="1638180750083" duration="64962000" />
     </task>
     <task id="LOCAL-00006" summary="stream api">
       <created>1635946849180</created>
@@ -517,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639574484491</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="java net:socket通信1">
+      <created>1639578498507</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1639578498507</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="thread 常用api 及同步相关" />
     <MESSAGE value="thread api" />
     <MESSAGE value="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题，good生产过程加锁，保证了生产和获取good的过程不会被打断，不会再出现 品牌名称 不一致的问题" />
@@ -563,7 +563,8 @@
     <MESSAGE value="LinkedBlockingQueue" />
     <MESSAGE value="自定义线程池" />
     <MESSAGE value="java net" />
-    <option name="LAST_COMMIT_MESSAGE" value="java net" />
+    <MESSAGE value="java net:socket通信1" />
+    <option name="LAST_COMMIT_MESSAGE" value="java net:socket通信1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
