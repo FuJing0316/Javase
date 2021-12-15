@@ -12,7 +12,7 @@ import java.net.UnknownHostException;
 public class NetDemo {
     public static void main(String[] args) {
         try {
-            //主机名/ip
+            //计算机名/IP
             InetAddress inetAddress = InetAddress.getLocalHost();
             System.out.println(inetAddress);
         } catch (UnknownHostException e) {
