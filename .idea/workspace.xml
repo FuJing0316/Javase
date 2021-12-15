@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/thread/threadpool/blockingqueue/LinkedBlockingQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/threadpool/blockingqueue/LinkedBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/threadpool/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayBlockingQueueDemo">
+  <component name="RunManager" selected="Application.ThreadPoolDemo">
     <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.threadpool.blockingqueue.ArrayBlockingQueue.ArrayBlockingQueueDemo" />
       <module name="Javase" />
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingerThreadPoolExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingerThreadPoolExecutorDemo" />
+    <configuration name="SingleThreadScheduledPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingleThreadScheduledPoolDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadScheduledPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingleThreadScheduledPoolDemo" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.threadpool.ThreadPoolDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threadpool.category.*" />
+          <option name="PATTERN" value="thread.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.ArrayBlockingQueueDemo" />
         <item itemvalue="Application.WorkStealingPoolTest" />
         <item itemvalue="Application.SingleThreadScheduledPoolDemo" />
         <item itemvalue="Application.ScheduleThreadPoolDemo" />
-        <item itemvalue="Application.SingerThreadPoolExecutorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +171,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="56286000" />
-    </task>
-    <task id="LOCAL-00001" summary="常用类练习">
-      <created>1635244506041</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1635244506041</updated>
+      <workItem from="1638180750083" duration="60060000" />
     </task>
     <task id="LOCAL-00002" summary="File练习">
       <created>1635339508484</created>
@@ -515,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639315495423</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="LinkedBlockingQueue">
+      <created>1639315515500</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1639315515501</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
