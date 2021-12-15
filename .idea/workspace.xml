@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/net/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/NetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/NetDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +66,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NetDemo">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.threadpool.blockingqueue.ArrayBlockingQueue.ArrayBlockingQueueDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.threadpool.blockingqueue.ArrayBlockingQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.client.Client" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadScheduledPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.SingleThreadScheduledPoolDemo" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.server.Server" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.threadpool.category.*" />
+          <option name="PATTERN" value="net.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkStealingPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.threadpool.category.forkJoinPoolDemo.WorkStealingPoolTest" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.threadpool.category.forkJoinPoolDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.NetDemo" />
         <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.ArrayBlockingQueueDemo" />
-        <item itemvalue="Application.WorkStealingPoolTest" />
-        <item itemvalue="Application.SingleThreadScheduledPoolDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -171,14 +172,7 @@
       <workItem from="1636885981828" duration="1069000" />
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
-      <workItem from="1638180750083" duration="61923000" />
-    </task>
-    <task id="LOCAL-00004" summary="file copy by stream">
-      <created>1635768347554</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1635768347554</updated>
+      <workItem from="1638180750083" duration="64344000" />
     </task>
     <task id="LOCAL-00005" summary="file copy by stream">
       <created>1635867620935</created>
@@ -516,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639572366012</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="java net">
+      <created>1639574484491</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1639574484491</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
