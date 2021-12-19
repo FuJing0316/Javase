@@ -12,9 +12,9 @@ import java.net.Socket;
  */
 public class Server2 {
     public static void main(String[] args) throws IOException {
-        //服务端需要使用serverSocket需要开发自己本地的端口
+        //创建服务端的serversocket并绑定到指定端口
         ServerSocket serverSocket = new ServerSocket(10086);
-        //要接收客户端传过来的数据，需要定义一个socket对象
+        //获取服务端socket：accept()监听要连接到此套接字的客户端socket，并接受它
         Socket sever = serverSocket.accept();
 
         //获取输入流，接收客户端发来的内容
