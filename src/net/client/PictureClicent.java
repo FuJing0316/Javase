@@ -9,6 +9,13 @@ import java.net.Socket;
  * @Description:
  * @Version: 1.0
  */
+
+/**
+ *功能说明：
+ * 客户端上传图片到服务端socket，服务端将图片输出到本地，并给客户端返回响应：图片上传成功。
+ *
+ *
+ */
 public class PictureClicent {
     public static void main(String[] args) throws IOException {
         //创建流套接字并将其连接到指定的IP和端口

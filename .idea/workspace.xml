@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bk_qige.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qige.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/client/PictureClicent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/server/PictureServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/server/Server2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/server/Server2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/client/PictureClicent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/client/PictureClicent.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,14 +179,7 @@
       <workItem from="1636972066646" duration="9179000" />
       <workItem from="1637317686661" duration="26293000" />
       <workItem from="1638180750083" duration="65730000" />
-      <workItem from="1639813285697" duration="7296000" />
-    </task>
-    <task id="LOCAL-00008" summary="DataOutputStream">
-      <created>1636196498511</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1636196498511</updated>
+      <workItem from="1639813285697" duration="8687000" />
     </task>
     <task id="LOCAL-00009" summary="stream type">
       <created>1636371006933</created>
@@ -529,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639814619571</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="socket and ServerSocket communication :picture practice">
+      <created>1639912579606</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1639912579606</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题，good生产过程加锁，保证了生产和获取good的过程不会被打断，不会再出现 品牌名称 不一致的问题" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题--JUC方案，BlockingQueue方式" />
@@ -575,7 +569,8 @@
     <MESSAGE value="java net" />
     <MESSAGE value="java net:socket通信1" />
     <MESSAGE value="java net:socket通信2,client and Server双端通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="java net:socket通信2,client and Server双端通信" />
+    <MESSAGE value="socket and ServerSocket communication :picture practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket and ServerSocket communication :picture practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
