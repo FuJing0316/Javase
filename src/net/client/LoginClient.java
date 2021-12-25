@@ -53,8 +53,6 @@ public class LoginClient {
         objectOutputStream.close();
         outputStream.close();
         clinet.close();
-
-
     }
 
     private static LoginUser getLoginUser() {
