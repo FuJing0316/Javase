@@ -17,8 +17,6 @@ public class LoginServer {
         //创建一个serversocket，并绑定到指定端口
         ServerSocket serverSocket = new ServerSocket(10087);
 
-
-
         InputStream inputStream = null;
         ObjectInputStream objectInputStream = null;
         OutputStream outputStream = null;
@@ -61,13 +59,9 @@ public class LoginServer {
             outputStream.close();
             objectInputStream.close();
             inputStream.close();
-//            server.close();
-//            serverSocket.close();
+            server.close();
         }
 
-
-
-
-
+//        serverSocket.close();
     }
 }
