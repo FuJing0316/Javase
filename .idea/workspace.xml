@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/net/server/LoginServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/server/LoginServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/server/LoginThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +38,8 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\D\my_codespace\Javase" />
-      <recent name="C:\D\my_codespace\Javase\src" />
-      <recent name="C:\D\my_codespace\Javase\src\net" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.List" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\D\my_codespace\Javase\src" />
@@ -55,8 +54,10 @@
       <recent name="io.excise" />
       <recent name="io.readerAndwriter" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="collection.List" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\D\my_codespace\Javase" />
+      <recent name="C:\D\my_codespace\Javase\src" />
+      <recent name="C:\D\my_codespace\Javase\src\net" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,21 +180,7 @@
       <workItem from="1637317686661" duration="26293000" />
       <workItem from="1638180750083" duration="65730000" />
       <workItem from="1639813285697" duration="9744000" />
-      <workItem from="1640006185463" duration="6652000" />
-    </task>
-    <task id="LOCAL-00012" summary="常用IO流">
-      <created>1636974117347</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1636974117347</updated>
-    </task>
-    <task id="LOCAL-00013" summary="IO练习">
-      <created>1637149924602</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1637149924602</updated>
+      <workItem from="1640006185463" duration="7027000" />
     </task>
     <task id="LOCAL-00014" summary="将一个大文件拆分，分块随机读取">
       <created>1637411577022</created>
@@ -524,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640446278735</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="socket实现用户登录，且服务端响应，服务端不关闭">
+      <created>1640446420928</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1640446420928</updated>
+    </task>
+    <task id="LOCAL-00062" summary="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现">
+      <created>1640446470620</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1640446470620</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用" />
     <MESSAGE value="多线程之生产者消费者模型：解决V1问题--JUC方案，BlockingQueue方式" />
     <MESSAGE value="miner fix" />
     <MESSAGE value="BlockingQueue的作用：简化了V3的线程阻塞、唤醒步骤" />
@@ -570,7 +570,8 @@
     <MESSAGE value="java net:socket通信2,client and Server双端通信" />
     <MESSAGE value="socket and ServerSocket communication :picture practice" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket实现用户登录，且服务端响应，服务端不关闭" />
+    <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
