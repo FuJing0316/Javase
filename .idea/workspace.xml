@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/client/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/server/UDPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/NetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/NetDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -72,39 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NetDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.client.Client" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UDPServer">
     <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.client.LoginClient" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="net.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.server.LoginServer" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +114,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.client.UDPClient" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.server.UDPServer" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UDPClient" />
+        <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.NetDemo" />
         <item itemvalue="Application.LoginClient" />
         <item itemvalue="Application.LoginServer2" />
-        <item itemvalue="Application.LoginServer" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -180,14 +182,8 @@
       <workItem from="1637317686661" duration="26293000" />
       <workItem from="1638180750083" duration="65730000" />
       <workItem from="1639813285697" duration="9744000" />
-      <workItem from="1640006185463" duration="8966000" />
-    </task>
-    <task id="LOCAL-00016" summary="thread">
-      <created>1637589984552</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1637589984552</updated>
+      <workItem from="1640006185463" duration="11909000" />
+      <workItem from="1640493068020" duration="862000" />
     </task>
     <task id="LOCAL-00017" summary="thread 常用api 及同步相关">
       <created>1637679820825</created>
@@ -525,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640485602854</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="inetSocketAdress">
+      <created>1640486371316</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1640486371316</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BlockingQueue的作用：简化了V3的线程阻塞、唤醒步骤" />
     <MESSAGE value="线程池分类：1-newCachedThreadPool" />
     <MESSAGE value="1、newCachedThreadPool" />
     <MESSAGE value="1、FixedThreadPool" />
@@ -571,7 +573,8 @@
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---多线程方式" />
     <MESSAGE value="socket实现用户登录，服务端校验用户数据---多线程方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="socket实现用户登录，服务端校验用户数据---多线程方式" />
+    <MESSAGE value="inetSocketAdress" />
+    <option name="LAST_COMMIT_MESSAGE" value="inetSocketAdress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
