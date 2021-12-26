@@ -24,8 +24,8 @@ public class LoginServer {
 
         //一直等着客户端输入正确的用户名，密码，提示登录成功
         while (true) {
-            //监听连接到此serversocket的连接，并接受他们
-            Socket server = serverSocket.accept();
+            //监听连接到此serversocket的连接，并接受他们（要连接进来的客户端）
+            Socket server = serverSocket.accept();//阻塞方法
 
             //获取服务端socket的输入流，准备接受客户端传来的数据
             inputStream = server.getInputStream();
