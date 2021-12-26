@@ -10,6 +10,14 @@ import java.util.Scanner;
  * @Description:
  * @Version: 1.0
  */
+
+/**
+ * UDP特点：
+ * 相当于发短信，不需要建立连接
+ * 发送数据报的大小在64k以内
+ * 效率较高，不安全，容易丢包
+ *
+ */
 public class UDPClient {
     public static void main(String[] args) {
         try {
