@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/why/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +181,8 @@
       <workItem from="1638180750083" duration="65730000" />
       <workItem from="1639813285697" duration="9744000" />
       <workItem from="1640006185463" duration="11909000" />
-      <workItem from="1640493068020" duration="5523000" />
-    </task>
-    <task id="LOCAL-00019" summary="thread api">
-      <created>1637755311875</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1637755311875</updated>
+      <workItem from="1640493068020" duration="5960000" />
+      <workItem from="1640605764721" duration="1256000" />
     </task>
     <task id="LOCAL-00020" summary="thread api">
       <created>1637755424566</created>
@@ -527,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640522055790</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式">
+      <created>1640601707792</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1640601707792</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1、FixedThreadPool" />
     <MESSAGE value="2/FixedThreadPoolDemo" />
     <MESSAGE value="cached thread pool supplement" />
     <MESSAGE value="SingleThreadPool" />
@@ -573,7 +572,8 @@
     <MESSAGE value="inetSocketAdress" />
     <MESSAGE value="UDP单向通信" />
     <MESSAGE value="UDP特点" />
-    <option name="LAST_COMMIT_MESSAGE" value="UDP特点" />
+    <MESSAGE value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
