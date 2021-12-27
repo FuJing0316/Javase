@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/why/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/client/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/client/UDPClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,13 +73,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UDPServer">
-    <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.client.LoginClient" />
+  <component name="RunManager" selected="Application.LambdaDemo">
+    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.LambdaDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.client.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginServer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.server.LoginServer2" />
+    <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.client.LoginClient" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.server.*" />
+          <option name="PATTERN" value="net.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaDemo" />
         <item itemvalue="Application.UDPClient" />
         <item itemvalue="Application.UDPServer" />
         <item itemvalue="Application.NetDemo" />
         <item itemvalue="Application.LoginClient" />
-        <item itemvalue="Application.LoginServer2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,14 +182,7 @@
       <workItem from="1638180750083" duration="65730000" />
       <workItem from="1639813285697" duration="9744000" />
       <workItem from="1640006185463" duration="11909000" />
-      <workItem from="1640493068020" duration="2311000" />
-    </task>
-    <task id="LOCAL-00018" summary="thread 常用api 及同步相关">
-      <created>1637680033377</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1637680033377</updated>
+      <workItem from="1640493068020" duration="5523000" />
     </task>
     <task id="LOCAL-00019" summary="thread api">
       <created>1637755311875</created>
@@ -527,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640511905721</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="UDP特点">
+      <created>1640522055790</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1640522055790</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1、newCachedThreadPool" />
     <MESSAGE value="1、FixedThreadPool" />
     <MESSAGE value="2/FixedThreadPoolDemo" />
     <MESSAGE value="cached thread pool supplement" />
@@ -573,7 +572,8 @@
     <MESSAGE value="socket实现用户登录，服务端校验用户数据---多线程方式" />
     <MESSAGE value="inetSocketAdress" />
     <MESSAGE value="UDP单向通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="UDP单向通信" />
+    <MESSAGE value="UDP特点" />
+    <option name="LAST_COMMIT_MESSAGE" value="UDP特点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
