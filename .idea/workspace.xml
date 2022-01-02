@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/FunctionalInterfaceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
     </list>
@@ -150,7 +149,7 @@
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_INHERITED,ALPHA_COMPARATOR,VISIBILITY_SORTER,SHOW_PROPERTIES" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_INHERITED,VISIBILITY_SORTER,SHOW_PROPERTIES,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,14 +184,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="1811000" />
-    </task>
-    <task id="LOCAL-00020" summary="thread api">
-      <created>1637755424566</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1637755424566</updated>
+      <workItem from="1641118789202" duration="4197000" />
     </task>
     <task id="LOCAL-00021" summary="多线程之生产者消费者模型：多线程对共享资源的操作，出现了数据安全问题">
       <created>1638605073120</created>
@@ -530,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640601707792</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="lambda之--什么是函数式接口">
+      <created>1641120654034</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1641120654034</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/FixedThreadPoolDemo" />
     <MESSAGE value="cached thread pool supplement" />
     <MESSAGE value="SingleThreadPool" />
     <MESSAGE value="ScheduledThreadPool：用法一，线程任务提交后，延迟一段时间执行" />
@@ -576,7 +574,8 @@
     <MESSAGE value="UDP单向通信" />
     <MESSAGE value="UDP特点" />
     <MESSAGE value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
+    <MESSAGE value="lambda之--什么是函数式接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda之--什么是函数式接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
