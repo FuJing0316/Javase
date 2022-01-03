@@ -50,7 +50,7 @@ public class LambdaDemo {
             public int compare(String o1, String o2) {
 
                 //比较的规则：按字符串长度进行比较
-                return o2.length() - o1.length();
+                return o1.length() - o2.length();
             }
         });
         //查看排序结果
@@ -59,9 +59,13 @@ public class LambdaDemo {
         }
 
 
-        List<Student> strs = Arrays.asList(new Student("lili", 11, 65), new Student("nana", 10, 75),
-                new Student("shasha", 15, 98), new Student("minmin", 12, 90));
+        System.out.println("-----------集合元素排序之lambda---------------");
 
+
+        //方式二：lambda写法
+        stringList.sort((a,b) -> {return a.length() - b.length();});
+//        stringList.sort(Comparator.comparingInt(String::length));
+        stringList.forEach(System.out::println);
 
     }
 }
