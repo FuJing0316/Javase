@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/why2/AgeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/why2/SoreFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/why2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/why2/StudentFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/why2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why3/StudentFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/why/why.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/why/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/why/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/why1/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/why/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/why1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/why/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/why1/package-info.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +56,11 @@
       <recent name="C:\D\my_codespace\Javase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.why3" />
+      <recent name="lambda.why4" />
       <recent name="net.server" />
       <recent name="net.client" />
       <recent name="thread.saleTicket" />
-      <recent name="io.excise" />
-      <recent name="io.readerAndwriter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\D\my_codespace\Javase" />
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.why.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.why2.Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.why.*" />
+          <option name="PATTERN" value="lambda.why2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.why2.Test" />
+      <option name="MAIN_CLASS_NAME" value="lambda.why1.Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.why2.*" />
+          <option name="PATTERN" value="lambda.why1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,7 +138,7 @@
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.why.*" />
+          <option name="PATTERN" value="lambda.why1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,14 +192,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="9619000" />
-    </task>
-    <task id="LOCAL-00023" summary="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用">
-      <created>1638609854782</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1638609854782</updated>
+      <workItem from="1641118789202" duration="10500000" />
     </task>
     <task id="LOCAL-00024" summary="多线程之生产者消费者模型：解决V1问题--JUC方案，BlockingQueue方式">
       <created>1638616204263</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641202271703</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现">
+      <created>1641205695329</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1641205695329</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +558,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SingleThreadPool" />
     <MESSAGE value="ScheduledThreadPool：用法一，线程任务提交后，延迟一段时间执行" />
     <MESSAGE value="ScheduledThreadPool" />
     <MESSAGE value="ScheduledThreadPool:用法二，从指定时间开始，定期执行线程任务" />
@@ -582,7 +582,8 @@
     <MESSAGE value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
     <MESSAGE value="lambda之--什么是函数式接口" />
     <MESSAGE value="lambda之-demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda之-demo" />
+    <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

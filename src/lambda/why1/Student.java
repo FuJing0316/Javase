@@ -1,4 +1,4 @@
-package lambda.why;
+package lambda.why1;
 
 /**
  * @Author: fujing
