@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/why/why.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why2/AgeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why2/SoreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why2/StudentFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/why2/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/why/why.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/why/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +38,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lambda/why2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\D\my_codespace\Javase" />
-      <recent name="C:\D\my_codespace\Javase\src" />
-      <recent name="C:\D\my_codespace\Javase\src\net" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lambda.why2" />
+      <recent name="collection.List" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\my_codespace\Javase\src\lambda\why2" />
       <recent name="C:\D\my_codespace\Javase\src" />
       <recent name="C:\D\my_codespace\Javase\src\thread\pc3" />
       <recent name="C:\D\my_codespace\Javase\src\thread\pc2" />
@@ -57,8 +61,10 @@
       <recent name="io.excise" />
       <recent name="io.readerAndwriter" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="collection.List" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\D\my_codespace\Javase" />
+      <recent name="C:\D\my_codespace\Javase\src" />
+      <recent name="C:\D\my_codespace\Javase\src\net" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaDemo">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.LambdaDemo" />
       <module name="Javase" />
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.client.LoginClient" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.why.Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.client.*" />
+          <option name="PATTERN" value="lambda.why.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.NetDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.why2.Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.*" />
+          <option name="PATTERN" value="lambda.why2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.server.UDPServer" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.why.test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.server.*" />
+          <option name="PATTERN" value="lambda.why.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.LambdaDemo" />
         <item itemvalue="Application.UDPClient" />
-        <item itemvalue="Application.UDPServer" />
-        <item itemvalue="Application.NetDemo" />
-        <item itemvalue="Application.LoginClient" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +191,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="6203000" />
-    </task>
-    <task id="LOCAL-00022" summary="多线程之生产者消费者模型：解决V1问题，good生产过程加锁，保证了生产和获取good的过程不会被打断，不会再出现 品牌名称 不一致的问题">
-      <created>1638606793725</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1638606793725</updated>
+      <workItem from="1641118789202" duration="9619000" />
     </task>
     <task id="LOCAL-00023" summary="多线程之生产者消费者模型：解决V1问题，生产者和消费者线程之期通信，wait、notify的使用">
       <created>1638609854782</created>
@@ -530,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641123057810</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="lambda之-demo">
+      <created>1641202271703</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1641202271703</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
