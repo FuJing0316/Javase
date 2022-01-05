@@ -10,7 +10,17 @@ package lambda.lambda_exec;
 import java.util.concurrent.Callable;
 
 /**
- * Lambda
+ * 根据函数式接口中 抽象方法参数(个数)，以及抽象方法实现方法体的逻辑量，lambda会有多种写法：
+ *  ()->{}
+ *  ()->{System.out.println(1);}
+ *  ()->{return 100;}
+ *  ()->100
+ *  ()->null
+ *  (int x)->{return x+1;}
+ *  (int x)->x+1
+ *  (x)->x+1
+ *  x->x+1
+ *
  */
 public class LambdaTest {
     public static void main(String[] args) throws Exception {
