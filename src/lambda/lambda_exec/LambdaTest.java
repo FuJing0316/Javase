@@ -105,7 +105,7 @@ public class LambdaTest {
         };
         System.out.println(interface22.getInt("103"));
 
-        //-------------------------------自定义函数式接口：StudentDao-------------------------------------
+        //-------------------------------自定义函数式接口：StudentDao ：函数式接口抽象方法有参数，有返回值--------------------
 
         System.out.println("-----------以下三种写法等价----------------");
         StudentDao studentDao = new StudentDao() {
@@ -123,9 +123,25 @@ public class LambdaTest {
         StudentDao studentDao2 = (s)-> s;
         System.out.println(studentDao2.insertStudent(new Student("王五")));
 
+        //-------------------------------自定义函数式接口：StudentDao ：函数式接口抽象方法有参数，无返回值---------------------
+        System.out.println("-----------以下三种写法等价----------------");
+        TeacherDao teacherDao = new TeacherDao() {
+            @Override
+            public void insterTeacher(Teacher teacher1) {
+                System.out.println("insert teacher1---"+teacher1);
+            }
+        };
+        teacherDao.insterTeacher(new Teacher());
+        //v2
+        TeacherDao teacherDao1 = (teacher2) -> {
+            System.out.println("insert teacher2---"+teacher2);
+        };
+        teacherDao1.insterTeacher(new Teacher());
+        //v3
+        TeacherDao teacherDao2 = (t3) -> System.out.println("inster teacher3---" + t3);
+        teacherDao2.insterTeacher(new Teacher());
+
+
+
     }
-
-
-
-
 }
