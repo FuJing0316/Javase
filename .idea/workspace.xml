@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -186,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="16435000" />
-    </task>
-    <task id="LOCAL-00030" summary="1、newCachedThreadPool">
-      <created>1639137821327</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1639137821327</updated>
+      <workItem from="1641118789202" duration="16748000" />
     </task>
     <task id="LOCAL-00031" summary="1、newCachedThreadPool">
       <created>1639137942679</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641385815480</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
+      <created>1641386050925</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1641386050925</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ScheduledThreadPool之定期执行线程活动: 线程任务执行期间，线程池连接不能关闭" />
     <MESSAGE value="summary" />
     <MESSAGE value="WorkStealingPool test" />
     <MESSAGE value="ArrayBlockingQueue" />
@@ -577,7 +576,8 @@
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V3，匿名内部类 可以写成lambda表达式" />
     <MESSAGE value="lambda表达式的写法" />
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法" />
+    <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
