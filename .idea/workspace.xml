@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaInterface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="15779000" />
-    </task>
-    <task id="LOCAL-00028" summary="1、newCachedThreadPool">
-      <created>1638964544881</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1638964544881</updated>
+      <workItem from="1641118789202" duration="16160000" />
     </task>
     <task id="LOCAL-00029" summary="1、newCachedThreadPool">
       <created>1638967530721</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641385337723</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="lambda表达式的写法">
+      <created>1641385372514</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1641385372514</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

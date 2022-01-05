@@ -71,9 +71,29 @@ public class LambdaTest {
         LambdaInterface lambdaInterface2 = ()->100;
         System.out.println(lambdaInterface2.getInt());
     //-------------------------------自定义函数式接口：带一个入参，打印方法返回值-------------------------------------
+        System.out.println("------------------------------");
+        //v1
+        LambdaInterface2 interface2 = new LambdaInterface2() {
+            @Override
+            public int getInt(String x) {
+                int a = Integer.parseInt(x);
+                return a;
+            }
+        };
+        System.out.println(interface2.getInt("101"));
+        //v2
+        LambdaInterface2 interface21 = (x)->{
+            int a = Integer.parseInt(x);
+            return a;
+        };
+        System.out.println(interface21.getInt("102"));
 
-
-
+        //v3
+        LambdaInterface2 interface22 = x -> {
+            int a = Integer.parseInt(x);
+            return a;
+        };
+        System.out.println(interface22.getInt("103"));
 
     }
 }
