@@ -106,6 +106,7 @@ public class LambdaTest {
         System.out.println(interface22.getInt("103"));
 
         //-------------------------------自定义函数式接口：StudentDao-------------------------------------
+
         System.out.println("-----------以下三种写法等价----------------");
         StudentDao studentDao = new StudentDao() {
             @Override
@@ -123,4 +124,8 @@ public class LambdaTest {
         System.out.println(studentDao2.insertStudent(new Student("王五")));
 
     }
+
+
+
+
 }
