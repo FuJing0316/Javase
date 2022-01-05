@@ -143,6 +143,7 @@ public class LambdaTest {
         teacherDao2.insterTeacher(new Teacher());
 
         //-------------------------------Java API中常用的函数式接口 使用---------------------
+
         //Function<T, R>  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的
         Function<Integer, Integer> function = (x) -> x + 1;
         System.out.println("一个函数式接口抽象方法的返回值，是：" + function.apply(100));//取到function的返回值使用apply()
