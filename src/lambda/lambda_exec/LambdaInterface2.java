@@ -9,5 +9,5 @@ package lambda.lambda_exec;
 
 @FunctionalInterface
 public interface LambdaInterface2 {
-    int getInt();
+    int getInt(String x);
 }
