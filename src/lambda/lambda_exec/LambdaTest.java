@@ -55,8 +55,22 @@ public class LambdaTest {
         Callable callable2 = ()->"call2...";
         System.out.println(callable2.call());
 
-        //--------------------------------------------------------------------
-
+        //-------------------------------自定义函数式接口：打印返回值-------------------------------------
+        //v1
+        LambdaInterface lambdaInterface = new LambdaInterface() {
+            @Override
+            public int getInt() {
+                return 100;
+            }
+        };
+        System.out.println(lambdaInterface.getInt());
+        //v2
+        LambdaInterface lambdaInterface1 = ()->{return 100;};
+        System.out.println(lambdaInterface1.getInt());
+        //v3
+        LambdaInterface lambdaInterface2 = ()->100;
+        System.out.println(lambdaInterface2.getInt());
+    //-------------------------------自定义函数式接口：带一个入参，打印方法返回值-------------------------------------
 
 
 
