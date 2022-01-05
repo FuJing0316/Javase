@@ -6,8 +6,7 @@ package lambda.lambda_exec;
  * @Description:
  * @Version: 1.0
  */
-public class LambdaTest2 {
-    public static void main(String[] args) {
-
-    }
+@FunctionalInterface
+public interface StudentDao {
+    Student insertStudent(Student student);
 }

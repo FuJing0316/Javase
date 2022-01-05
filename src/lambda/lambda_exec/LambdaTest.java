@@ -81,7 +81,7 @@ public class LambdaTest {
         LambdaInterface lambdaInterface2 = ()->100;
         System.out.println(lambdaInterface2.getInt());
     //-------------------------------自定义函数式接口：带一个入参，打印方法返回值-------------------------------------
-        System.out.println("------------------------------");
+        System.out.println("-----------以下三种写法等价----------------");
         //v1
         LambdaInterface2 interface2 = new LambdaInterface2() {
             @Override
@@ -104,6 +104,23 @@ public class LambdaTest {
             return a;
         };
         System.out.println(interface22.getInt("103"));
+
+        //-------------------------------自定义函数式接口：StudentDao-------------------------------------
+        System.out.println("-----------以下三种写法等价----------------");
+        StudentDao studentDao = new StudentDao() {
+            @Override
+            public Student insertStudent(Student student) {
+                return student;
+            }
+        };
+        System.out.println(studentDao.insertStudent(new Student("zhangsan")));
+
+        //v2
+        StudentDao studentDao1 = (s)-> {return s;};
+        System.out.println(studentDao1.insertStudent(new Student("李四")));
+        //v3
+        StudentDao studentDao2 = (s)-> s;
+        System.out.println(studentDao2.insertStudent(new Student("王五")));
 
     }
 }
