@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/TeacherDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
@@ -188,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="18966000" />
-    </task>
-    <task id="LOCAL-00035" summary="cached thread pool supplement">
-      <created>1639218621326</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1639218621326</updated>
+      <workItem from="1641118789202" duration="19497000" />
     </task>
     <task id="LOCAL-00036" summary="SingleThreadPool">
       <created>1639219586781</created>
@@ -533,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641390533603</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
+      <created>1641391238646</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391238646</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

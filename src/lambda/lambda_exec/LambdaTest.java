@@ -8,6 +8,7 @@ package lambda.lambda_exec;
  */
 
 import java.util.concurrent.Callable;
+import java.util.function.Function;
 
 /**
  * 根据函数式接口中 抽象方法参数(个数)，以及抽象方法实现方法体的逻辑量，lambda会有多种写法：
@@ -141,6 +142,10 @@ public class LambdaTest {
         TeacherDao teacherDao2 = (t3) -> System.out.println("inster teacher3---" + t3);
         teacherDao2.insterTeacher(new Teacher());
 
+        //-------------------------------Java API中常用的函数式接口 使用---------------------
+        //Function<T, R>  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的
+        Function<Integer, Integer> function = (x) -> x + 1;
+        System.out.println("一个函数式接口抽象方法的返回值，是：" + function.apply(100));//取到function的返回值使用apply()
 
 
     }
