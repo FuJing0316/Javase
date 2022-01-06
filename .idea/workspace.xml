@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="19610000" />
-    </task>
-    <task id="LOCAL-00037" summary="SingleThreadPool">
-      <created>1639219704135</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1639219704135</updated>
+      <workItem from="1641118789202" duration="21473000" />
     </task>
     <task id="LOCAL-00038" summary="ScheduledThreadPool：用法一，线程任务提交后，延迟一段时间执行">
       <created>1639221074994</created>
@@ -530,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641391846012</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的">
+      <created>1641391864496</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1641391864496</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
