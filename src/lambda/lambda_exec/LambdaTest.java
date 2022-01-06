@@ -149,7 +149,7 @@ public class LambdaTest {
         Function<Integer, Integer> function = (x) -> x + 1;
         System.out.println("一个函数式接口抽象方法的返回值，是：" + function.apply(100));//取到function的返回值使用apply()
 
-
+        //BiFunction(T,U,R) ：代表函数有两个输入，一个输出
         BiFunction<String,String,Integer> bf = (a, b)->a.length()+b.length();
         System.out.println(bf.apply("连老师", "好帅"));
 

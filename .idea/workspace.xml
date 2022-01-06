@@ -186,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="21473000" />
-    </task>
-    <task id="LOCAL-00038" summary="ScheduledThreadPool：用法一，线程任务提交后，延迟一段时间执行">
-      <created>1639221074994</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1639221074994</updated>
+      <workItem from="1641118789202" duration="21732000" />
     </task>
     <task id="LOCAL-00039" summary="ScheduledThreadPool">
       <created>1639221746469</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641391864496</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的">
+      <created>1641478700916</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1641478700916</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="WorkStealingPool test" />
     <MESSAGE value="ArrayBlockingQueue" />
     <MESSAGE value="LinkedBlockingQueue" />
     <MESSAGE value="自定义线程池" />
@@ -577,7 +576,8 @@
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
+    <MESSAGE value="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
+    <option name="LAST_COMMIT_MESSAGE" value="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
