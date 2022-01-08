@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="Java 函数式接口---UnaryOperator&lt;T&gt;：代表有一个初入，一个输出的函数，输入和输出是相同类型的">
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/function_ref/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/function_ref/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +51,11 @@
       <recent name="C:\D\my_codespace\Javase\src\thread\pc2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.function_ref" />
       <recent name="lambda.lambda_exec" />
       <recent name="lambda.why3" />
       <recent name="lambda.why4" />
       <recent name="net.server" />
-      <recent name="net.client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\D\my_codespace\Javase" />
@@ -74,20 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaTest">
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.LambdaDemo" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda_exec.LambdaTest" />
       <module name="Javase" />
@@ -107,6 +95,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda.why2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Test1" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.function_ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.LambdaTest" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.LambdaDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +187,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="27875000" />
-    </task>
-    <task id="LOCAL-00046" summary="WorkStealingPool test">
-      <created>1639310538524</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1639310538524</updated>
+      <workItem from="1641118789202" duration="30335000" />
     </task>
     <task id="LOCAL-00047" summary="ArrayBlockingQueue">
       <created>1639313698413</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641638264322</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。">
+      <created>1641638654584</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1641638654585</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---多线程方式" />
     <MESSAGE value="socket实现用户登录，服务端校验用户数据---多线程方式" />
@@ -577,7 +577,8 @@
     <MESSAGE value="Java 函数式接口---BiFunction&lt;T, U, R&gt;:代表有两个输入一个输出的函数，一般输入和输出是不同类型的" />
     <MESSAGE value="Java 函数式接口---BiConsumer&lt;T, U&gt;:代表有两个输入，无输出的函数" />
     <MESSAGE value="Java 函数式接口---UnaryOperator&lt;T&gt;：代表有一个初入，一个输出的函数，输入和输出是相同类型的" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 函数式接口---UnaryOperator&lt;T&gt;：代表有一个初入，一个输出的函数，输入和输出是相同类型的" />
+    <MESSAGE value="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
