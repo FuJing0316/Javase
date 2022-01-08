@@ -7,7 +7,6 @@ package lambda.function_ref;
  * @Version: 1.0
  */
 
-import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
@@ -15,16 +14,17 @@ import java.util.function.Supplier;
  *              如果函数式接口的抽象方法的实现，恰好可以通过调用另一个已存在的方法 来实现，那么就有可能使用方法的引用。
  *
  */
-public class Test2 {
+public class StaticMethod_ref {
     public static void main(String[] args) {
 //---------------------------静态方法的引用----------------------------
         //lambda表达式写法
-        Supplier<String> supplier = ()->Test2.getName();
+        Supplier<String> supplier = ()-> StaticMethod_ref.getName();
         System.out.println(supplier.get());
         //静态方法引用 写法
-        Supplier<String> supplier2 = Test2::getName;
+        Supplier<String> supplier2 = StaticMethod_ref::getName;
         System.out.println(supplier2.get());
-//---------------------------实例方法的引用----------------------------
+
+
 
 
 
