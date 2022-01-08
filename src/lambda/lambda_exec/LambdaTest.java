@@ -10,6 +10,7 @@ package lambda.lambda_exec;
 import java.util.concurrent.Callable;
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 /**
  * 根据函数式接口中 抽象方法参数(个数)，以及抽象方法实现方法体的逻辑量，lambda会有多种写法：
@@ -144,6 +145,19 @@ public class LambdaTest {
         teacherDao2.insterTeacher(new Teacher());
 
         //-------------------------------Java API中常用的函数式接口 使用---------------------
+
+        /**
+         * 在Java中，提供了一系列函数式接口，用来接收后续传入的逻辑，但对输入和输出有要求。
+         *  Java api中常用的函数式接口，有：
+         *  Supplier<T> ： 代表有一个输出，可以作为lambda表达式或方法引用的赋值对象
+         *
+         *
+         *
+         */
+
+        Supplier<String> supplier = ()->{return "test Str";};
+        System.out.println("supplier---"+supplier.get());
+
 
         //Function<T, R>  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的
         Function<Integer, Integer> function = (x) -> x + 1;
