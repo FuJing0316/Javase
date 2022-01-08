@@ -149,11 +149,16 @@ public class LambdaTest {
 
         /**
          * 在Java中，提供了一系列函数式接口，用来接收后续传入的逻辑，但对输入和输出有要求。
-         *  Java api中常见的函数式接口，有：
-         *  Supplier<T>: 代表有一个输出的函数，可以作为lambda表达式或方法引用的赋值对象；
-         *  Consumer<T>: 代表接收一个输入，无返回值的一个函数；
-         *  Function<T, R>: 代表有一个输入和一个输出的函数，一般输入和输出是不同类型；
          *
+         *  Java api中常见的函数式接口，有：
+         *
+         *  Supplier<T>: 代表有一个输出的函数，可以作为lambda表达式或方法引用的赋值对象；
+         *
+         *  Consumer<T>: 代表接收一个输入，无返回值的一个函数；
+         *
+         *
+         *  Function<T, R>: 代表有一个输入和一个输出的函数，一般输入和输出是不同类型的；
+         *  BiFunction<T, U, R>: 代表有两个输入，一个输出的函数，一般输入和输出是不同类型的
          *
          *
          */
@@ -167,9 +172,16 @@ public class LambdaTest {
         Function<String,Integer> function = (String x) ->{int a = 0; a = Integer.parseInt(x);return a;};
         System.out.println("funtion return int value---"+function.apply("123"));
 
-        //BiFunction(T,U,R) ：代表函数有两个输入，一个输出
-
-
+        BiFunction<String,Integer,Integer> biFunction = (a,b) -> {
+            int temp = 0;
+            int sum = 0;
+            if (!"".equals(a)) {
+                temp = Integer.parseInt(a);
+            }
+            sum = temp + b;
+            return sum;
+        };
+        System.out.println("biFunction return results---"+biFunction.apply("789", 1));
 
 
     }
