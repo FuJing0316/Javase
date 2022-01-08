@@ -8,10 +8,7 @@ package lambda.lambda_exec;
  */
 
 import java.util.concurrent.Callable;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 /**
  * 根据函数式接口中 抽象方法参数(个数)，以及抽象方法实现方法体的逻辑量，lambda会有多种写法：
@@ -155,7 +152,7 @@ public class LambdaTest {
          *  Supplier<T>: 代表有一个输出的函数，可以作为lambda表达式或方法引用的赋值对象；
          *
          *  Consumer<T>: 代表接收一个输入，无返回值的一个函数；
-         *
+         *  BiConsumer<T, U> : 代表接收两个输入，无输出的函数
          *
          *  Function<T, R>: 代表有一个输入和一个输出的函数，一般输入和输出是不同类型的；
          *  BiFunction<T, U, R>: 代表有两个输入，一个输出的函数，一般输入和输出是不同类型的
@@ -182,6 +179,10 @@ public class LambdaTest {
             return sum;
         };
         System.out.println("biFunction return results---"+biFunction.apply("789", 1));
+
+        BiConsumer<Integer,Integer> biConsumer = (t1,t2)-> System.out.println("consumer accpte:" + (t1 + t2));
+        biConsumer.accept(1, 2);
+
 
 
     }
