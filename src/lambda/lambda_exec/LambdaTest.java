@@ -157,8 +157,8 @@ public class LambdaTest {
          *  Function<T, R>: 代表有一个输入和一个输出的函数，一般输入和输出是不同类型的；
          *  BiFunction<T, U, R>: 代表有两个输入，一个输出的函数，一般输入和输出是不同类型的
          *
-         *  UnaryOperator<T>: 代表有一个输入，一个输出的函数，一般输入和输出是相同类型的；
-         *
+         *  UnaryOperator<T>: 代表有一个输入，一个输出的函数，输入和输出是相同类型的。
+         *  BinaryOperator<T> : 代表两个输入和一个输出，输入和输出是相同类型的。 //BinaryOperator<T> extends BiFunction<T,T,T>
          *
          */
 
@@ -189,6 +189,8 @@ public class LambdaTest {
         UnaryOperator<String> unaryOperator = (y)-> {return y;};
         System.out.println("unaryOperator return result---" + unaryOperator.apply("456"));
 
+        BinaryOperator<String> binaryOperator = (a, c) -> a + c;
+        System.out.println("binaryOperator return---" + binaryOperator.apply("1", "2"));
 
     }
 }
