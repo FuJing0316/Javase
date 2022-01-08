@@ -157,6 +157,8 @@ public class LambdaTest {
          *  Function<T, R>: 代表有一个输入和一个输出的函数，一般输入和输出是不同类型的；
          *  BiFunction<T, U, R>: 代表有两个输入，一个输出的函数，一般输入和输出是不同类型的
          *
+         *  UnaryOperator<T>: 代表有一个输入，一个输出的函数，一般输入和输出是相同类型的；
+         *
          *
          */
 
@@ -165,6 +167,10 @@ public class LambdaTest {
 
         Consumer<Integer> consumer = (a) -> System.out.println("hello consumer:" + a);
         consumer.accept(1314520);
+
+        BiConsumer<Integer,Integer> biConsumer = (t1,t2)-> System.out.println("consumer accpte:" + (t1 + t2));
+        biConsumer.accept(1, 2);
+
 
         Function<String,Integer> function = (String x) ->{int a = 0; a = Integer.parseInt(x);return a;};
         System.out.println("funtion return int value---"+function.apply("123"));
@@ -180,9 +186,8 @@ public class LambdaTest {
         };
         System.out.println("biFunction return results---"+biFunction.apply("789", 1));
 
-        BiConsumer<Integer,Integer> biConsumer = (t1,t2)-> System.out.println("consumer accpte:" + (t1 + t2));
-        biConsumer.accept(1, 2);
-
+        UnaryOperator<String> unaryOperator = (y)-> {return y;};
+        System.out.println("unaryOperator return result---" + unaryOperator.apply("456"));
 
 
     }

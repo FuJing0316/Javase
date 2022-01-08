@@ -186,14 +186,7 @@
       <workItem from="1640493068020" duration="5960000" />
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
-      <workItem from="1641118789202" duration="26829000" />
-    </task>
-    <task id="LOCAL-00044" summary="summary">
-      <created>1639308486789</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1639308486789</updated>
+      <workItem from="1641118789202" duration="27480000" />
     </task>
     <task id="LOCAL-00045" summary="WorkStealingPool test">
       <created>1639309828328</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641637384338</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Java 函数式接口---BiConsumer&lt;T, U&gt;:代表有两个输入，无输出的函数">
+      <created>1641637666688</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1641637666688</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java net:socket通信2,client and Server双端通信" />
     <MESSAGE value="socket and ServerSocket communication :picture practice" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭" />
     <MESSAGE value="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现" />
@@ -577,7 +576,8 @@
     <MESSAGE value="Java 函数式接口---Function&lt;T, R&gt;:代表有一个输入一个输出的函数（函数式接口）" />
     <MESSAGE value="Java 函数式接口---Consumer&lt;T&gt;:代表一个可接收一个输入，无返回值的函数" />
     <MESSAGE value="Java 函数式接口---BiFunction&lt;T, U, R&gt;:代表有两个输入一个输出的函数，一般输入和输出是不同类型的" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java 函数式接口---BiFunction&lt;T, U, R&gt;:代表有两个输入一个输出的函数，一般输入和输出是不同类型的" />
+    <MESSAGE value="Java 函数式接口---BiConsumer&lt;T, U&gt;:代表有两个输入，无输出的函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java 函数式接口---BiConsumer&lt;T, U&gt;:代表有两个输入，无输出的函数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
