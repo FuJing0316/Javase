@@ -16,14 +16,14 @@ import java.util.function.Supplier;
  *              如果函数式接口的抽象方法的实现，恰好可以通过调用另一个已存在的方法 来实现，那么就有可能使用方法的引用。
  *
  */
-public class StaticMethod_ref {
+public class Static_Method_ref {
     public static void main(String[] args) {
 //---------------------------静态方法的引用----------------------------
         //lambda表达式写法
-        Supplier<String> supplier = ()-> StaticMethod_ref.getName();
+        Supplier<String> supplier = ()-> Static_Method_ref.getName();
         System.out.println(supplier.get());
         //静态方法引用 写法
-        Supplier<String> supplier2 = StaticMethod_ref::getName;
+        Supplier<String> supplier2 = Static_Method_ref::getName;
         System.out.println(supplier2.get());
 
         //以下lambda写法和静态方法引用写法等价
@@ -42,7 +42,7 @@ public class StaticMethod_ref {
 
         //以下两种写法等价
         BiFunction<String,String,Integer> biFunction = (a,b)-> getLength(a, b);//lambda写法
-        BiFunction<String,String,Integer> biFunction1 = StaticMethod_ref::getLength;//方法引用写法
+        BiFunction<String,String,Integer> biFunction1 = Static_Method_ref::getLength;//方法引用写法
         System.out.println("biFunction--" + biFunction.apply("你好阿", "周末"));
         System.out.println("biFunction1--" + biFunction1.apply("你好阿", "周末"));
 
