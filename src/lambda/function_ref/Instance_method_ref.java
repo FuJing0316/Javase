@@ -7,6 +7,10 @@ package lambda.function_ref;
  * @Version: 1.0
  */
 
+import com.sun.org.apache.xpath.internal.functions.Function3Args;
+
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
@@ -23,7 +27,19 @@ public class Instance_method_ref {
         Supplier<String> supplier1 = new Instance_method_ref()::put;//实例方法引用的写法
         System.out.println("instance method ref ---supplier1:"+supplier1.get());
 
+        //以下两种写法等价
+        Consumer<String> consumer = (x)->new Instance_method_ref().getSize(x);
+        consumer.accept("你好加瓦");
+        Consumer<String> consumer1 = new Instance_method_ref()::getSize;
+        consumer1.accept("你好加瓦");
 
+        //以下三种写法效果等价
+        Function<String,String> function = (t)->{return new Instance_method_ref().toUpperCase(t);};
+        Function<String,String> function2 = (t)-> new Instance_method_ref().toUpperCase(t);
+        Function<String,String> function3 = new Instance_method_ref()::toUpperCase; //实例方法的引用
+        System.out.println(function.apply("abc"));
+        System.out.println(function2.apply("abc"));
+        System.out.println(function3.apply("abc"));
 
 
     }

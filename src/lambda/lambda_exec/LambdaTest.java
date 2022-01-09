@@ -162,7 +162,7 @@ public class LambdaTest {
          *
          */
 
-        Supplier<String> supplier = ()->{return "test Str";};
+        Supplier<String> supplier = ()->{return "test Str";};  //该语句含义：用一个函数式接口对象，去接收了一段接口抽象方法的实现逻辑，但并未执行
         System.out.println("supplier return result---"+supplier.get());
 
         Consumer<Integer> consumer = (a) -> System.out.println("hello consumer:" + a);

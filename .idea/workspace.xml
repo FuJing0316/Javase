@@ -4,6 +4,7 @@
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Instance_method_ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Instance_method_ref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,14 +201,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="3764000" />
-    </task>
-    <task id="LOCAL-00051" summary="自定义线程池">
-      <created>1639565161356</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1639565161356</updated>
+      <workItem from="1641654091872" duration="6284000" />
     </task>
     <task id="LOCAL-00052" summary="java net">
       <created>1639572366012</created>
@@ -545,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641700600096</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance">
+      <created>1641701654180</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1641701654180</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +567,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="socket实现用户登录，服务端校验用户数据---多线程方式" />
     <MESSAGE value="inetSocketAdress" />
     <MESSAGE value="UDP单向通信" />
     <MESSAGE value="UDP特点" />
@@ -591,7 +591,8 @@
     <MESSAGE value="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。" />
     <MESSAGE value="方法的引用---静态方法的引用" />
     <MESSAGE value="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。" />
+    <MESSAGE value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
