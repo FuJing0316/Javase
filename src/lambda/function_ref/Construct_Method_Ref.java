@@ -29,7 +29,7 @@ public class Construct_Method_Ref {
         //以下 lambda表达式写法和 构造函数方法引用的写法 效果等价
         Function<String,People> function = (str)->new People(str);
         System.out.println("function--" + function.apply("lili"));
-        Function<String,People> function2 = People::new;//构造方法的引用
+        Function<String,People> function2 = People::new;    //构造函数的方法引用
         System.out.println("function2---" + function2.apply("lili"));
 
     }
