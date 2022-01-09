@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -200,14 +200,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="9117000" />
-    </task>
-    <task id="LOCAL-00056" summary="java net:socket通信2,client and Server双端通信">
-      <created>1639814619570</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1639814619571</updated>
+      <workItem from="1641654091872" duration="11238000" />
     </task>
     <task id="LOCAL-00057" summary="socket and ServerSocket communication :picture practice">
       <created>1639912579606</created>
@@ -545,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641715091216</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="方法的引用---构造函数的方法引用">
+      <created>1641715153054</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1641715153054</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
