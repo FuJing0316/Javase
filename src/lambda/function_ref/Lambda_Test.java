@@ -15,7 +15,7 @@ import java.util.function.Supplier;
  *   如果函数式接口，抽象方法的实现，恰好可以通过调用另一个已存在的方法 来实现，那么就有可能使用方法的引用。
  *
  */
-public class Test1 {
+public class Lambda_Test {
     public static void main(String[] args) {
         Supplier<String> supplier = () -> {return "supplier~";};  //->后花括号中的内容，就是函数式接口抽象方法get()的实现。
         System.out.println(supplier.get());

@@ -88,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lambda_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Lambda_Test" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.function_ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StaticMethod_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.StaticMethod_ref" />
       <module name="Javase" />
@@ -107,19 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lambda.why2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Test1" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.function_ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,7 +156,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StaticMethod_ref" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Lambda_Test" />
         <item itemvalue="Application.LambdaTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
