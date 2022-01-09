@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/function_ref/Object_Method_ref.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Instance_method_ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Instance_method_ref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/lambda_exec/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Lambda_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Lambda_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Static_Method_ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Static_Method_ref.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Instance_method_ref">
+  <component name="RunManager" selected="Application.Object_Method_ref">
     <configuration name="Instance_method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Instance_method_ref" />
       <module name="Javase" />
@@ -115,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static_Method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Static_Method_ref" />
+    <configuration name="Object_Method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Object_Method_ref" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.why2.Test" />
+    <configuration name="Static_Method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Static_Method_ref" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.why2.*" />
+          <option name="PATTERN" value="lambda.function_ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Object_Method_ref" />
         <item itemvalue="Application.Instance_method_ref" />
         <item itemvalue="Application.Static_Method_ref" />
         <item itemvalue="Application.Lambda_Test" />
         <item itemvalue="Application.LambdaTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -201,21 +203,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="6284000" />
-    </task>
-    <task id="LOCAL-00052" summary="java net">
-      <created>1639572366012</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1639572366012</updated>
-    </task>
-    <task id="LOCAL-00053" summary="java net">
-      <created>1639574484491</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1639574484491</updated>
+      <workItem from="1641654091872" duration="8179000" />
     </task>
     <task id="LOCAL-00054" summary="java net:socket通信1">
       <created>1639578498507</created>
@@ -546,7 +534,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641701654180</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
+      <created>1641712299665</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1641712299665</updated>
+    </task>
+    <task id="LOCAL-00102" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
+      <created>1641712374961</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1641712374962</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +569,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inetSocketAdress" />
     <MESSAGE value="UDP单向通信" />
     <MESSAGE value="UDP特点" />
     <MESSAGE value="lambda demo:任何 用函数式接口 的地方，均可用lambda表达式" />
@@ -592,7 +593,8 @@
     <MESSAGE value="方法的引用---静态方法的引用" />
     <MESSAGE value="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。" />
     <MESSAGE value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance" />
+    <MESSAGE value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName" />
+    <option name="LAST_COMMIT_MESSAGE" value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
