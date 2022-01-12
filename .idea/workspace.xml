@@ -200,14 +200,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="12448000" />
-    </task>
-    <task id="LOCAL-00058" summary="socket and ServerSocket communication :picture practice">
-      <created>1640000769642</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1640000769642</updated>
+      <workItem from="1641654091872" duration="13938000" />
     </task>
     <task id="LOCAL-00059" summary="socket and ServerSocket communication :picture practice">
       <created>1640006224856</created>
@@ -545,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641732811362</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Stream Api--stream的生成">
+      <created>1641823210709</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1641823210709</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +566,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda之--什么是函数式接口" />
     <MESSAGE value="lambda之-demo" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V2使用 匿名内部类实现 的filter" />
@@ -591,7 +590,8 @@
     <MESSAGE value="方法的引用---对象方法的引用" />
     <MESSAGE value="方法的引用---构造函数的方法引用" />
     <MESSAGE value="Stream Api--stream的创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream Api--stream的创建" />
+    <MESSAGE value="Stream Api--stream的生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream Api--stream的生成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
