@@ -200,14 +200,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="13938000" />
-    </task>
-    <task id="LOCAL-00059" summary="socket and ServerSocket communication :picture practice">
-      <created>1640006224856</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1640006224857</updated>
+      <workItem from="1641654091872" duration="14077000" />
     </task>
     <task id="LOCAL-00060" summary="socket实现用户登录，且服务端响应，服务端不关闭">
       <created>1640446278734</created>
@@ -545,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641823210709</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Stream的生成--通过数组生成">
+      <created>1641990048977</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1641990048977</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +566,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda之-demo" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V2使用 匿名内部类实现 的filter" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V3，匿名内部类 可以写成lambda表达式" />
@@ -591,7 +590,8 @@
     <MESSAGE value="方法的引用---构造函数的方法引用" />
     <MESSAGE value="Stream Api--stream的创建" />
     <MESSAGE value="Stream Api--stream的生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream Api--stream的生成" />
+    <MESSAGE value="Stream的生成--通过数组生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream的生成--通过数组生成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

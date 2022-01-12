@@ -26,16 +26,28 @@ import java.util.stream.Stream;
  */
 public class StreamDemo {
     public static void main(String[] args) {
-        //通过数组生成stream
-        String[] strings = {"a","b","c","d"};
-        Stream<String> stream = Stream.of(strings);
-        stream.forEach(System.out::print);
+        //stream的生成
+        gen1();
+        gen2();
 
-        //通过集合来生成
+
+    }
+
+    /**
+     *  通过集合来生成
+     */
+    private static void gen2() {
         List<String> list = Arrays.asList("1", "2", "3");
         Stream<String> stream1 = list.stream();
         stream1.forEach(System.out::println);
+    }
 
-
+    /**
+     * 通过数组生成stream
+     */
+    private static void gen1() {
+        String[] strings = {"a","b","c","d"};
+        Stream<String> stream = Stream.of(strings);
+        stream.forEach(System.out::print);
     }
 }
