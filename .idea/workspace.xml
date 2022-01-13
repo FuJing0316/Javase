@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,14 +201,7 @@
       <workItem from="1640605764721" duration="1256000" />
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
-      <workItem from="1641654091872" duration="14077000" />
-    </task>
-    <task id="LOCAL-00060" summary="socket实现用户登录，且服务端响应，服务端不关闭">
-      <created>1640446278734</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1640446278735</updated>
+      <workItem from="1641654091872" duration="14732000" />
     </task>
     <task id="LOCAL-00061" summary="socket实现用户登录，且服务端响应，服务端不关闭">
       <created>1640446420928</created>
@@ -545,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641990048977</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Stream的生成--通过集合">
+      <created>1641990153290</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1641990153290</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +567,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤，不使用lambda 及使用策略模式实现" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V2使用 匿名内部类实现 的filter" />
     <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V3，匿名内部类 可以写成lambda表达式" />
     <MESSAGE value="lambda表达式的写法" />
@@ -591,7 +591,8 @@
     <MESSAGE value="Stream Api--stream的创建" />
     <MESSAGE value="Stream Api--stream的生成" />
     <MESSAGE value="Stream的生成--通过数组生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream的生成--通过数组生成" />
+    <MESSAGE value="Stream的生成--通过集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream的生成--通过集合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

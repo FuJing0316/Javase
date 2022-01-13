@@ -42,6 +42,8 @@ public class StreamDemo {
         stream1.forEach(System.out::println);
     }
 
+
+
     /**
      * 通过数组生成stream
      */

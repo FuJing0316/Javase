@@ -23,7 +23,7 @@ import java.util.function.Supplier;
 public class Construct_Method_Ref {
     public static void main(String[] args) {
 //---------------------------构造方法的引用----------------------------
-        Supplier<People> supplier = ()->new People();
+        Supplier<People> supplier = () -> new People();
         Supplier<People> supplier2 = People::new;
 
         //以下 lambda表达式写法和 构造函数方法引用的写法 效果等价
