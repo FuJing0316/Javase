@@ -16,31 +16,31 @@ import java.util.stream.Stream;
 
 /**
  * Stream Api:
- * Stream的创建/生成
- * 1、Stream.of(T..values)  返回元素是指定值的顺序排序流
- * 2、list.stream()
- * 3、Arrays.stream(T[] array)
- * 4、Stream.generate(Supplier<T> s)
- * 5、iterate(final T seed, final UnaryOperator<T> f)
- * 6、其他方式。。。
- * <p>
- * <p>
+ *
+ *  Stream的创建/生成
+ *         1、Stream.of(T..values)  返回元素是指定值的顺序排序流
+ *         2、list.stream()
+ *         3、Arrays.stream(T[] array)
+ *         4、Stream.generate(Supplier<T> s)
+ *         5、iterate(final T seed, final UnaryOperator<T> f)
+ *         6、其他方式。。。
+ *
+ *
  * stream的中间操作 : 如果方法调用之后，返回的结果是 Stream 对象，就意味着是一个中间操作
- * 常用中间操作：
- * map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator<? super T> comparator)
- * <p>
+ *      常用中间操作：
+ *          map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator<? super T> comparator)
+ *
  * stream的终止操作：
- * reduce （归约）：将流中元素反复结合起来得到一个值
- * collect（收集）：将流转换为其他形式。需要Collectors类的一些方法
- * <p>
- * allMatch
- * anyMatch
- * noneMatch
- * findFirst
- * findAny
- * count()
- * max()
- * min()
+ *         reduce （归约）：将流中元素反复结合起来得到一个值
+ *         collect（收集）：将流转换为其他形式。需要Collectors类的一些方法
+ *          allMatch
+ *          anyMatch
+ *          noneMatch
+ *          findFirst
+ *          findAny
+ *          count()
+ *          max()
+ *          min()
  */
 public class StreamDemo {
     public static void main(String[] args) {

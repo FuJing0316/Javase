@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/stream/ApiDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
     </list>
@@ -189,14 +188,7 @@
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
-      <workItem from="1642225416732" duration="18916000" />
-    </task>
-    <task id="LOCAL-00066" summary="UDP单向通信">
-      <created>1640511905720</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1640511905721</updated>
+      <workItem from="1642225416732" duration="19205000" />
     </task>
     <task id="LOCAL-00067" summary="UDP特点">
       <created>1640522055790</created>
@@ -534,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642255938757</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="stream 终止操作 api">
+      <created>1642258199943</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1642258199943</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
     <MESSAGE value="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
@@ -580,7 +578,8 @@
     <MESSAGE value="Stream的生成--集合、数组生成的Stream" />
     <MESSAGE value="Stream的创建/生成&#10;    1、Stream.of(T..values)  返回元素是指定值的顺序排序流&#10;    2、list.stream()&#10;    3、Arrays.stream(T[] array)&#10;    4、Stream.generate(Supplier&lt;T&gt; s)&#10;    5、iterate(final T seed, final UnaryOperator&lt;T&gt; f)&#10;    6、其他方式。。。" />
     <MESSAGE value="常用中间操作：&#10;    map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator&lt;? super T&gt; comparator)" />
-    <option name="LAST_COMMIT_MESSAGE" value="常用中间操作：&#10;    map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator&lt;? super T&gt; comparator)" />
+    <MESSAGE value="stream 终止操作 api" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream 终止操作 api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
