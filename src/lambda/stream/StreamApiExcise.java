@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  * @Description:
  * @Version: 1.0
  */
-public class ApiDemo {
+public class StreamApiExcise {
     class Student{
         private int id;
         private String name;
@@ -36,7 +36,7 @@ public class ApiDemo {
     }
 
     public static void main(String[] args) {
-        ApiDemo demo1 = new ApiDemo ();
+        StreamApiExcise demo1 = new StreamApiExcise();
         List<Student> list = new ArrayList<>();
         list.add (demo1.new Student (1,"张三",18));
         list.add (demo1.new Student (2,"李四",20));
@@ -66,7 +66,7 @@ public class ApiDemo {
         //常用操作三：list转map
         System.out.println ("=======================list转map分割线===================");
         Map<Integer,Student> map = list.stream ().filter (Objects::nonNull).collect (Collectors.toMap (Student::getId, student -> student));
-        for (Map.Entry<Integer, ApiDemo.Student> entrySet: map.entrySet ()){
+        for (Map.Entry<Integer, StreamApiExcise.Student> entrySet: map.entrySet ()){
             System.out.println (entrySet.getKey () +":"+ entrySet.getValue ());
         }
         System.out.println ("=======================排序后分割线===================");
