@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/stream/StreamGerate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamGerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="Construct_Method_Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Construct_Method_Ref" />
       <module name="Javase" />
@@ -128,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamGerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.stream.StreamGerate" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.stream.StreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamGerate" />
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.Construct_Method_Ref" />
         <item itemvalue="Application.Object_Method_ref" />
         <item itemvalue="Application.Instance_method_ref" />
@@ -189,14 +188,7 @@
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
-      <workItem from="1642225416732" duration="10713000" />
-    </task>
-    <task id="LOCAL-00064" summary="socket实现用户登录，服务端校验用户数据---多线程方式">
-      <created>1640485602854</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1640485602854</updated>
+      <workItem from="1642225416732" duration="16806000" />
     </task>
     <task id="LOCAL-00065" summary="inetSocketAdress">
       <created>1640486371316</created>
@@ -534,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642232572072</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Stream的创建/生成&#10;    1、Stream.of(T..values)  返回元素是指定值的顺序排序流&#10;    2、list.stream()&#10;    3、Arrays.stream(T[] array)&#10;    4、Stream.generate(Supplier&lt;T&gt; s)&#10;    5、iterate(final T seed, final UnaryOperator&lt;T&gt; f)&#10;    6、其他方式。。。">
+      <created>1642240379171</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1642240379171</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda之- 实现学生 按成绩、分数过滤：基于V3，匿名内部类 可以写成lambda表达式" />
     <MESSAGE value="lambda表达式的写法" />
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
@@ -580,7 +578,8 @@
     <MESSAGE value="Stream的生成--通过数组生成" />
     <MESSAGE value="Stream的生成--通过集合" />
     <MESSAGE value="Stream的生成--集合、数组生成的Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream的生成--集合、数组生成的Stream" />
+    <MESSAGE value="Stream的创建/生成&#10;    1、Stream.of(T..values)  返回元素是指定值的顺序排序流&#10;    2、list.stream()&#10;    3、Arrays.stream(T[] array)&#10;    4、Stream.generate(Supplier&lt;T&gt; s)&#10;    5、iterate(final T seed, final UnaryOperator&lt;T&gt; f)&#10;    6、其他方式。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream的创建/生成&#10;    1、Stream.of(T..values)  返回元素是指定值的顺序排序流&#10;    2、list.stream()&#10;    3、Arrays.stream(T[] array)&#10;    4、Stream.generate(Supplier&lt;T&gt; s)&#10;    5、iterate(final T seed, final UnaryOperator&lt;T&gt; f)&#10;    6、其他方式。。。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
