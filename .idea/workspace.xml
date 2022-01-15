@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/function_ref/Construct_Method_Ref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Construct_Method_Ref">
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="Construct_Method_Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Construct_Method_Ref" />
       <module name="Javase" />
@@ -90,19 +90,6 @@
     </configuration>
     <configuration name="Instance_method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Instance_method_ref" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.function_ref.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lambda_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Lambda_Test" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -140,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.why1.Test" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.stream.StreamDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.why1.*" />
+          <option name="PATTERN" value="lambda.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.Construct_Method_Ref" />
         <item itemvalue="Application.Object_Method_ref" />
         <item itemvalue="Application.Instance_method_ref" />
         <item itemvalue="Application.Static_Method_ref" />
-        <item itemvalue="Application.Lambda_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -201,14 +188,7 @@
       <workItem from="1640872131040" duration="1198000" />
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
-      <workItem from="1642225416732" duration="1862000" />
-    </task>
-    <task id="LOCAL-00062" summary="socket实现用户登录，且服务端响应，服务端不关闭---循环方式实现">
-      <created>1640446470620</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1640446470620</updated>
+      <workItem from="1642225416732" duration="4936000" />
     </task>
     <task id="LOCAL-00063" summary="socket实现用户登录，且服务端响应，服务端不关闭---多线程方式">
       <created>1640446907422</created>
@@ -546,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642082939068</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Stream的生成--通过集合">
+      <created>1642228725313</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1642228725314</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

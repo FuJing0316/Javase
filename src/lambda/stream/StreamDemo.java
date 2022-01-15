@@ -14,42 +14,41 @@ import java.util.stream.Stream;
 /**
  * Stream Api:
  *      Stream的创建/生成
- *          1、通过数组生成stream ：  stream.of(T...t)
- *
+ *          1、List或数组 生成Stream ： 使用 stream.of(T...t) 返回元素是指定值的顺序排序流
+ *          2、generate(Supplier<T> s)
  *
  *      stream的中间操作
- *
+ *          1、
  *
  *      stream的终止操作
- *
+ *          1、
  *
  */
 public class StreamDemo {
     public static void main(String[] args) {
-        //stream的生成
+        //Stream的生成方式
         gen1();
         gen2();
 
 
+
     }
 
     /**
-     *  通过集合来生成
+     * 通过集合来生成
      */
-    private static void gen2() {
-        List<String> list = Arrays.asList("1", "2", "3");
-        Stream<String> stream1 = list.stream();
-        stream1.forEach(System.out::println);
+    private static void gen2(){
+        List<String> stringList = Arrays.asList("", "", "", "");
+        Stream<String> stream = stringList.stream();
+        stream.forEach(System.out::print);
     }
 
-
-
     /**
-     * 通过数组生成stream
+     * 通过数组生成stream :  Stream.of(T..values)  返回元素是指定值的顺序排序流
      */
     private static void gen1() {
-        String[] strings = {"a","b","c","d"};
-        Stream<String> stream = Stream.of(strings);
+        String[] arr = {"a", "b", "c", "d"};
+        Stream<String> stream = Stream.of(arr);
         stream.forEach(System.out::print);
     }
 }
