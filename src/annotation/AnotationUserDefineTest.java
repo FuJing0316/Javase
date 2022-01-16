@@ -26,9 +26,9 @@ import java.lang.annotation.*;
 @Inherited
 @interface AnotationUserDefine {
    //注解属性名称的定义方式，看起来很像方法定义，但实际上是在使用注解时，填写的参数名称，默认值 是value
+   //关于默认值：因为自定义注解中所有方法都需要在使用注解的时候，添加值(不加编译不过)，很麻烦，所以包含了默认值
    String name() default "lisisi";
 
-   //关于默认值：因为自定义注解中所有方法都需要在使用注解的时候，添加值(不加编译不过)，很麻烦，所以包含了默认值
    int age() default 12;
 
    int id() default 1;

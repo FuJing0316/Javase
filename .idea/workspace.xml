@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotation/MyAnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/MetaAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,14 +189,7 @@
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
       <workItem from="1642225416732" duration="19369000" />
-      <workItem from="1642322386331" duration="7189000" />
-    </task>
-    <task id="LOCAL-00070" summary="lambda之-demo">
-      <created>1641123057810</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1641123057810</updated>
+      <workItem from="1642322386331" duration="7426000" />
     </task>
     <task id="LOCAL-00071" summary="lambda之-demo">
       <created>1641202271703</created>
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642340132851</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="自定义注解">
+      <created>1642341489685</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1642341489685</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +555,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
     <MESSAGE value="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
     <MESSAGE value="BiFunction(T,U,R) ：代表函数有两个输入，一个输出" />
     <MESSAGE value="Java 函数式接口---Supplier&lt;T&gt;：代表有一个输出，该对象可以作为lambda表达式或方法引用的赋值对象" />
@@ -582,7 +579,8 @@
     <MESSAGE value="常用中间操作：&#10;    map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator&lt;? super T&gt; comparator)" />
     <MESSAGE value="stream 终止操作 api" />
     <MESSAGE value="Stream 的 collect 操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream 的 collect 操作" />
+    <MESSAGE value="自定义注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义注解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
