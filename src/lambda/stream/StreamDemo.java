@@ -54,7 +54,7 @@ public class StreamDemo {
 
 //---------------------------Stream的中间操作----------------------
         Stream<Integer> stream1 = Arrays.asList(1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 9, 10, 10, 10).stream();
-        stream1.map((x) -> x + 1) //代表一个映射， 返回 把给定函数 应用于此流的元素之后 所得到的结果 组成的流
+        stream1.map((x) -> x + 1) //代表一个映射， 返回 把给定函数 应用于此流的元素之后 所得到的结果 组成的流，会改变 原流中元素
                 .flatMap(t -> Stream.of(t)) //和 map 差不多. 区别类似 list.add 和list.addAll
                 .filter(s -> s <= 5) //按指定函数（方法实现逻辑）过滤
                 .limit(5) //限制
@@ -90,7 +90,7 @@ public class StreamDemo {
 
         //集合元素--每个加1--去重--求和
         System.out.println("-------------------------");
-        int sum1 = Stream.of(1, 2, 2, 5, 5, 6, 7).mapToInt(x -> x + 1).distinct().sum(); //mapToInt  将集合中每个元素映射成 int，返回一个stream
+        int sum1 = Stream.of(1, 2, 2, 5, 5, 6, 7).mapToInt(x -> x + 1).distinct().sum(); //mapToInt：将流中每个元素 经过 Funtion逻辑的转换后，得到一个新的stream ，会改变原有流中元素
         System.out.println("sum1:" + sum1);
 
 

@@ -44,13 +44,17 @@ public class StreamApiExcise {
         list.add (demo1.new Student (4,"小明",19));
         list.add (demo1.new Student (5,"小红",17));
         list.add (null);
-        //常用操作一：防空处理
+        //常用操作一：防空处理（过滤出非空数据）
         //Optional.ofNullable (list).orElse (Collections.emptyList ()).forEach (System.out::println);  会存在null
         list.stream ().filter (Objects::nonNull).forEach (student -> System.out.println (student));
+        Map<Integer, Student> studentMap = list.stream().filter(student -> (student != null && student.age != 0)).collect(Collectors.toMap(Student::getId, student -> student));
+        System.out.println("studentMap:"+studentMap);
+
         //常用操作二：集合变形  业务代码最为常见（假设我要取得某个集合中某个属性作为单独的一个集合）
         System.out.println ("=======================集合变形分割线===================");
+        //集合转化流--->filter过滤--->map对集合做业务操作(返回的仍然是Stream<R>)--->流转化为集合
         List<String> nameList = list.stream ().filter (Objects::nonNull).map (Student::getName).collect(Collectors.toList());
-        nameList.forEach (System.out::println);//集合转化流--->filter过滤--->map对集合做业务操作(返回的仍然是Stream<R>)--->流转化为集合
+        nameList.forEach (System.out::println);
         //limit 就像mysql的limit num 关键字  这里是查出前3条
         List<String> nameList2 = list.stream ().filter (Objects::nonNull).map (Student::getName).limit (3).collect(Collectors.toList());
         nameList2.forEach (s -> System.out.println ("limit" + s));
@@ -63,12 +67,17 @@ public class StreamApiExcise {
         list2.forEach(integer -> System.out.println ("不改变原有元素"+integer));
         //改变对象
         list2.stream().map(i -> i * 2).forEach(integer -> System.out.println ("改变原有元素"+integer));
-        //常用操作三：list转map
+
+        //常用操作三：list转map  {"id1":student1; "id2":student2}
         System.out.println ("=======================list转map分割线===================");
-        Map<Integer,Student> map = list.stream ().filter (Objects::nonNull).collect (Collectors.toMap (Student::getId, student -> student));
+        Map<Integer,Student> map = list.stream ().filter (Objects::nonNull).collect (Collectors.toMap (student -> student.getId(), student -> student));
         for (Map.Entry<Integer, StreamApiExcise.Student> entrySet: map.entrySet ()){
             System.out.println (entrySet.getKey () +":"+ entrySet.getValue ());
         }
+        //list转map 示例2  按ID重新分组，每组为一个list  {"id1":[student1]; "id2":[student2]}
+        Map<Integer, List<Student>> collect = list.stream().collect(Collectors.groupingBy(student -> student.getId()));
+//        Map<String, List<CollegeMajorEnum>> majorEnumMap = userService.getMajorEnum().stream().collect(Collectors.groupingBy(CollegeMajorEnum::getMajorCode));
+
         System.out.println ("=======================排序后分割线===================");
         //常用操作四：集合排序
         //方法1：利用Comparable 接口实现排序 String和Integer都是实现了此接口，需要覆写其
