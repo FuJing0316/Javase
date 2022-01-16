@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotation/MyAnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamApiExcise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamApiExcise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/stream/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotation/MyAnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/MetaAnnotation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -192,14 +191,7 @@
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
       <workItem from="1642225416732" duration="19369000" />
-      <workItem from="1642322386331" duration="5806000" />
-    </task>
-    <task id="LOCAL-00069" summary="lambda之--什么是函数式接口">
-      <created>1641120654034</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1641120654034</updated>
+      <workItem from="1642322386331" duration="7189000" />
     </task>
     <task id="LOCAL-00070" summary="lambda之-demo">
       <created>1641123057810</created>
@@ -537,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642258389126</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Stream 的 collect 操作">
+      <created>1642340132850</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1642340132851</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +557,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法" />
     <MESSAGE value="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
     <MESSAGE value="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的" />
     <MESSAGE value="BiFunction(T,U,R) ：代表函数有两个输入，一个输出" />
@@ -583,7 +581,8 @@
     <MESSAGE value="Stream的创建/生成&#10;    1、Stream.of(T..values)  返回元素是指定值的顺序排序流&#10;    2、list.stream()&#10;    3、Arrays.stream(T[] array)&#10;    4、Stream.generate(Supplier&lt;T&gt; s)&#10;    5、iterate(final T seed, final UnaryOperator&lt;T&gt; f)&#10;    6、其他方式。。。" />
     <MESSAGE value="常用中间操作：&#10;    map、flatMap、filter、limit、skip、distinct、sorted()、sorted(Comparator&lt;? super T&gt; comparator)" />
     <MESSAGE value="stream 终止操作 api" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream 终止操作 api" />
+    <MESSAGE value="Stream 的 collect 操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream 的 collect 操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
