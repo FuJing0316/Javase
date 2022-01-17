@@ -6,7 +6,6 @@ package annotation;
  * @Description: 自定义一个注解
  * @Version: 1.0
  */
-
 import java.lang.annotation.*;
 
 /**
