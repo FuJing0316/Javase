@@ -7,7 +7,6 @@ package annotation;
  * @Version: 1.0
  */
 import java.lang.annotation.*;
-
 /**
  * 自定义注解注意几个点：
  *      1-元注解的使用；
