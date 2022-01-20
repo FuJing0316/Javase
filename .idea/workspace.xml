@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +189,7 @@
       <workItem from="1641118789202" duration="30671000" />
       <workItem from="1641654091872" duration="15342000" />
       <workItem from="1642225416732" duration="19369000" />
-      <workItem from="1642322386331" duration="9950000" />
-    </task>
-    <task id="LOCAL-00073" summary="lambda之- 实现学生 按成绩、分数过滤：基于V2使用 匿名内部类实现 的filter">
-      <created>1641206578685</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1641206578685</updated>
+      <workItem from="1642322386331" duration="10639000" />
     </task>
     <task id="LOCAL-00074" summary="lambda之- 实现学生 按成绩、分数过滤：基于V3，匿名内部类 可以写成lambda表达式">
       <created>1641207159400</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642428809873</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="自定义注解">
+      <created>1642590934357</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1642590934357</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
