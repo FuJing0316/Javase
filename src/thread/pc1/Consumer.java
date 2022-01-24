@@ -14,7 +14,6 @@ public class Consumer implements Runnable {
         this.good = good;
     }
 
-
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
