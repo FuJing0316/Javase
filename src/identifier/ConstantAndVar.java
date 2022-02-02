@@ -1,3 +1,5 @@
+package identifier;
+
 /*
 常量和变量
 	常量：在程序运行过程中，值不会发生改变的量叫做常量
@@ -35,7 +37,7 @@ public class ConstantAndVar{
 		System.out.println(a);
 		final int c = 20;
 		System.out.println(c);
-		c=30;
+//		c=30;
 		System.out.println(c);
 
 

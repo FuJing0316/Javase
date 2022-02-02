@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/basic/excise/SelfAddDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/AnotationUserDefineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/identifier/IdentifiedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier/IdentifiedDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
+  <component name="RunManager" selected="Application.SelfAddDemo">
     <configuration name="Construct_Method_Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Construct_Method_Ref" />
       <module name="Javase" />
@@ -115,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static_Method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Static_Method_ref" />
+    <configuration name="SelfAddDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.excise.SelfAddDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.function_ref.*" />
+          <option name="PATTERN" value="basic.excise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelfAddDemo" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.Construct_Method_Ref" />
         <item itemvalue="Application.Object_Method_ref" />
         <item itemvalue="Application.Instance_method_ref" />
-        <item itemvalue="Application.Static_Method_ref" />
       </list>
     </recent_temporary>
   </component>
@@ -191,14 +203,8 @@
       <workItem from="1641654091872" duration="15342000" />
       <workItem from="1642225416732" duration="19369000" />
       <workItem from="1642322386331" duration="11396000" />
-      <workItem from="1642831356492" duration="1856000" />
-    </task>
-    <task id="LOCAL-00078" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法的个数，以及实现逻辑，会有的变种写法">
-      <created>1641385815480</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1641385815480</updated>
+      <workItem from="1642831356492" duration="2573000" />
+      <workItem from="1643783813205" duration="4016000" />
     </task>
     <task id="LOCAL-00079" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
       <created>1641386050925</created>
@@ -536,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643033744214</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Java基础语法：关键字、保留字、标识符">
+      <created>1643117197882</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1643117197882</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,3 +1,5 @@
+package identifier;
+
 /*
 标识符命名规范
 	硬性规定：
@@ -20,7 +22,7 @@ public class IdentifiedDemo{
 		int $b=20;
 		//int a+b=30
 		int a = 10;
-		int public = 20;
+//		int public =
 		int getValueById = 12;
 	}
 }
