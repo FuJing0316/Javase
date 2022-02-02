@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/excise/SelfAddDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/excise/LoopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/identifier/IdentifiedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier/IdentifiedDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelfAddDemo">
+  <component name="RunManager" selected="Application.LoopTest">
     <configuration name="Construct_Method_Ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Construct_Method_Ref" />
       <module name="Javase" />
@@ -101,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Instance_method_ref" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.function_ref.Instance_method_ref" />
+    <configuration name="LoopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.excise.LoopTest" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.function_ref.*" />
+          <option name="PATTERN" value="basic.excise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopTest" />
         <item itemvalue="Application.SelfAddDemo" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.Construct_Method_Ref" />
         <item itemvalue="Application.Object_Method_ref" />
-        <item itemvalue="Application.Instance_method_ref" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +192,7 @@
       <workItem from="1642225416732" duration="19369000" />
       <workItem from="1642322386331" duration="11396000" />
       <workItem from="1642831356492" duration="2573000" />
-      <workItem from="1643783813205" duration="4016000" />
-    </task>
-    <task id="LOCAL-00079" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
-      <created>1641386050925</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1641386050925</updated>
+      <workItem from="1643783813205" duration="5268000" />
     </task>
     <task id="LOCAL-00080" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
       <created>1641386346988</created>
@@ -549,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643117197882</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Java基础">
+      <created>1643803044565</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1643803044565</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +558,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BiFunction(T,U,R) ：代表函数有两个输入，一个输出" />
     <MESSAGE value="Java 函数式接口---Supplier&lt;T&gt;：代表有一个输出，该对象可以作为lambda表达式或方法引用的赋值对象" />
     <MESSAGE value="Java 函数式接口---Function&lt;T, R&gt;:代表有一个输入一个输出的函数（函数式接口）" />
     <MESSAGE value="Java 函数式接口---Consumer&lt;T&gt;:代表一个可接收一个输入，无返回值的函数" />
@@ -595,7 +582,8 @@
     <MESSAGE value="Stream 的 collect 操作" />
     <MESSAGE value="自定义注解" />
     <MESSAGE value="Java基础语法：关键字、保留字、标识符" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java基础语法：关键字、保留字、标识符" />
+    <MESSAGE value="Java基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -609,6 +597,16 @@
           <url>file://$PROJECT_DIR$/src/collection/Map/MapDemo.java</url>
           <line>49</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/excise/LoopTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basic/excise/LoopTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
