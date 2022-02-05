@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/identifier/ConstantAndVar.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +193,8 @@
       <workItem from="1642322386331" duration="11396000" />
       <workItem from="1642831356492" duration="2573000" />
       <workItem from="1643783813205" duration="6525000" />
-      <workItem from="1644034772099" duration="599000" />
-    </task>
-    <task id="LOCAL-00081" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
-      <created>1641386405688</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1641386405688</updated>
+      <workItem from="1644034772099" duration="1390000" />
+      <workItem from="1644050757238" duration="1149000" />
     </task>
     <task id="LOCAL-00082" summary="lambda表达式的写法 ： 根据函数式接口中，抽象方法参数的个数，以及实现逻辑，会有的变种写法">
       <created>1641390473449</created>
@@ -535,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643804434227</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Java基础">
+      <created>1644043724889</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1644043724889</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

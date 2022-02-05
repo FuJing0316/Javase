@@ -25,15 +25,15 @@ public class ConstantAndVar{
 		//声明
 		int a;
 		//赋值
-		a =10;
+		a = 10;
 		//声明+赋值
 		//int b = 20;
 		//int c;
 		//System.out.println(d);
 		//int x=10,y=20;
-		
+
 		System.out.println(a);
-		a=30;
+		a = 30;
 		System.out.println(a);
 		final int c = 20;
 		System.out.println(c);
