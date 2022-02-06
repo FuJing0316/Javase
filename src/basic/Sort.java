@@ -15,13 +15,11 @@ package basic;
  * 内部排序是数据记录在内存中进行排序。
  * 外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。
  *
- *  　常见的内部排序算法有：冒泡排序、选择排序、插入排序、希尔排序、快速排序、归并排序等。
+ *  　常见的内部排序算法有：冒泡排序、选择排序、插入排序、希尔排序（插入排序变种版）、快速排序（冒泡排序改进版）、归并排序等。
  *
  *
  *
  */
-
-
 public class Sort {
     public static void main(String[] args) {
 
@@ -34,10 +32,85 @@ public class Sort {
         //插入排序
         insertSort();
 
+        //快速排序
+        int[] arr = {8, 5, 3, 2, 4};
+        QuickSort(arr,0,8);
+
 
     }
 
     /**
+     * 快速排序
+     * 它的基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法
+     * 对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
+     *
+     * 原理：
+     * 1、从数列中挑出一个元素，称为 “基准”（pivot）；
+     * 2、重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
+     * 3、递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
+     *
+     *
+     * @param array
+     * @param start
+     * @param end
+     * @return
+     */
+    public static int[] QuickSort(int[] array, int start, int end) {
+        if (array.length < 1 || start < 0 || end >= array.length || start > end) return null;
+
+        int smallIndex = partition(array, start, end);
+
+        if (smallIndex > start){
+            QuickSort(array, start, smallIndex - 1);
+        }
+        if (smallIndex < end){
+            QuickSort(array, smallIndex + 1, end);
+        }
+        return array;
+    }
+
+    /**
+     * 快速排序算法——partition 分割/分区
+     *
+     * @param array
+     * @param start
+     * @param end
+     * @return
+     */
+    public static int partition(int[] array, int start, int end) {
+        //基准点
+        int pivot = (int) (start + Math.random() * (end - start + 1));
+
+        int smallIndex = start - 1;
+
+        swap(array, pivot, end);
+
+        for (int i = start; i <= end; i++)
+            if (array[i] <= array[end]) {
+                smallIndex++;
+                if (i > smallIndex)
+                    swap(array, i, smallIndex);
+            }
+        return smallIndex;
+    }
+
+    /**
+     * 交换数组内两个元素
+     *
+     * @param array
+     * @param i
+     * @param j
+     */
+    public static void swap(int[] array, int i, int j) {
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+
+
+
+    /**
+     * 插入排序 : 原理--
      *a、默认从第二个数据开始比较。
      *b、如果第二个数据比第一个小，则交换。然后在用第三个数据比较，如果比前面小，则插入（狡猾）。否则，退出循环
      *c、说明：默认将第一数据看成有序列表，后面无序的列表循环每一个数据，如果比前面的数据小则插入（交换）。否则退出。
