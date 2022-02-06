@@ -36,7 +36,6 @@ public class Sort {
         int[] arr = {8, 5, 3, 2, 4};
         QuickSort(arr,0,8);
 
-
     }
 
     /**

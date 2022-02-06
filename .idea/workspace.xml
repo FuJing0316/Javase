@@ -194,14 +194,7 @@
       <workItem from="1642831356492" duration="2573000" />
       <workItem from="1643783813205" duration="6525000" />
       <workItem from="1644034772099" duration="1390000" />
-      <workItem from="1644050757238" duration="4983000" />
-    </task>
-    <task id="LOCAL-00086" summary="Function&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的">
-      <created>1641391864496</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1641391864496</updated>
+      <workItem from="1644050757238" duration="7757000" />
     </task>
     <task id="LOCAL-00087" summary="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的">
       <created>1641478700916</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644135938101</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="快速排序">
+      <created>1644138567837</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1644138567837</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Java 函数式接口---BiFunction&lt;T, U, R&gt;:代表有两个输入一个输出的函数，一般输入和输出是不同类型的" />
     <MESSAGE value="Java 函数式接口---BiConsumer&lt;T, U&gt;:代表有两个输入，无输出的函数" />
     <MESSAGE value="Java 函数式接口---UnaryOperator&lt;T&gt;：代表有一个初入，一个输出的函数，输入和输出是相同类型的" />
     <MESSAGE value="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。" />
@@ -585,7 +584,8 @@
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="选择排序" />
     <MESSAGE value="插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="插入排序" />
+    <MESSAGE value="快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
