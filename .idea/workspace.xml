@@ -194,14 +194,7 @@
       <workItem from="1642831356492" duration="2573000" />
       <workItem from="1643783813205" duration="6525000" />
       <workItem from="1644034772099" duration="1390000" />
-      <workItem from="1644050757238" duration="7757000" />
-    </task>
-    <task id="LOCAL-00087" summary="BiFunction&lt;T, R&gt;  ： 用来接收有一个输入参数和一个输出值的函数赋值 ，T-输入参数类型，R-输出参数类型，一般输入和输出是不同类型的">
-      <created>1641478700916</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1641478700916</updated>
+      <workItem from="1644050757238" duration="8976000" />
     </task>
     <task id="LOCAL-00088" summary="BiFunction(T,U,R) ：代表函数有两个输入，一个输出">
       <created>1641478966541</created>
@@ -539,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644138567837</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="快速排序">
+      <created>1644150681400</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1644150681400</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
