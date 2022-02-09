@@ -6,7 +6,7 @@ package oop2.homework;
  * @Description:
  * @Version: 1.0
  */
-public class MotoVehicleTest {
+public class MotorVehicleTest {
     public static void main(String[] args) {
 
     }
