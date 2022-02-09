@@ -6,7 +6,7 @@ package oop2.homework;
  * @Description:
  * @Version: 1.0
  */
-public abstract class MotoVehicle {
+public abstract class MotorVehicle {
     private String no;
     private String brand;
 
