@@ -9,7 +9,10 @@ public class TwoArray{
 
     public static void main(String[] args){
 
+        //一维数组声明
         int[] arr = new int[6];
+
+        //二维数组声明： 高维length必须先声明才行
         int[][] arr2 = new int[3][];
         //创建二维数组的对象
         arr2[0] = new int[5];
