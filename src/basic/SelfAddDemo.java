@@ -1,4 +1,4 @@
-package basic.excise;
+package basic;
 
 /**
  * @Author: fujing

@@ -90,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="LoopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.excise.LoopTest" />
+      <option name="MAIN_CLASS_NAME" value="basic.LoopTest" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.excise.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="SelfAddDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.excise.SelfAddDemo" />
+      <option name="MAIN_CLASS_NAME" value="basic.SelfAddDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.excise.*" />
+          <option name="PATTERN" value="basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,4 +1,4 @@
-package basic.excise;
+package basic;
 
 /*
 二维数组可以称作数组的数组
