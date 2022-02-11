@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/TwoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/TwoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/homework/MotorVehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/homework/MotorVehicleTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,14 +194,8 @@
       <workItem from="1642831356492" duration="2573000" />
       <workItem from="1643783813205" duration="6525000" />
       <workItem from="1644034772099" duration="1390000" />
-      <workItem from="1644050757238" duration="13579000" />
-    </task>
-    <task id="LOCAL-00094" summary="Java 函数式接口---UnaryOperator&lt;T&gt;：代表有一个初入，一个输出的函数，输入和输出是相同类型的">
-      <created>1641638264322</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1641638264322</updated>
+      <workItem from="1644050757238" duration="13847000" />
+      <workItem from="1644490858275" duration="2415000" />
     </task>
     <task id="LOCAL-00095" summary="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。">
       <created>1641638654584</created>
@@ -539,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644416388439</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="some note">
+      <created>1644416486907</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1644416486907</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。" />
     <MESSAGE value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance" />
     <MESSAGE value="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName" />
     <MESSAGE value="方法的引用---对象方法的引用" />
@@ -585,7 +585,8 @@
     <MESSAGE value="二维数组" />
     <MESSAGE value="oop" />
     <MESSAGE value="rename file" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename file" />
+    <MESSAGE value="some note" />
+    <option name="LAST_COMMIT_MESSAGE" value="some note" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,16 +600,6 @@
           <url>file://$PROJECT_DIR$/src/collection/Map/MapDemo.java</url>
           <line>49</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic/LoopTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic/LoopTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
