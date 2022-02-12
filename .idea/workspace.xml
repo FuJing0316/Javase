@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oop2/homework/MotorVehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/homework/MotorVehicleTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,6 +195,7 @@
       <workItem from="1644034772099" duration="1390000" />
       <workItem from="1644050757238" duration="13847000" />
       <workItem from="1644490858275" duration="2415000" />
+      <workItem from="1644680664599" duration="24000" />
     </task>
     <task id="LOCAL-00095" summary="Java 函数式接口---BinaryOperator&lt;T&gt;:代表两个输入一个输出的函数，输入和输出是相同类型的。">
       <created>1641638654584</created>

@@ -8,6 +8,6 @@ package oop2.homework;
  */
 public class MotorVehicleTest {
     public static void main(String[] args) {
-
+        System.out.println("");
     }
 }
