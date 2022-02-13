@@ -6,7 +6,7 @@ package oop2.homework;
  * @Description: 轿车
  * @Version: 1.0
  */
-public class Car extends MotoVehicle {
+public class Car extends MotorVehicle {
 
     private String type;
 
