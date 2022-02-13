@@ -20,7 +20,7 @@ package basic;
  *
  *
  */
-public class Sort {
+public class ArraySort {
     public static void main(String[] args) {
 
         //冒泡
