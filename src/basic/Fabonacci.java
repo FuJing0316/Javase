@@ -11,15 +11,13 @@ import java.util.Scanner;
 
 /**
  * 打印斐波那契数列 ：
- * 特点：第一，第二个为1，后面每个值等于前两位相加所得数
+ * 特点：从1开始，第一，第二个为1，后面每个值等于前两位相加所得数
  */
 public class Fabonacci {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入要打印的菲波那切数列个数：");
-        int num = scanner.nextInt();
 
-        for (int i = 0; i < num; i++) {
+        //打印10个以内的斐波那契数列
+        for (int i = 1; i <= 10; i++) {
             System.out.println(getNumber(i));
         }
 
@@ -32,7 +30,7 @@ public class Fabonacci {
         注意：
             再程序中，能不使用递归就不要使用递归
                 使用递归的时候会加大资源的消耗
-                如果递归的层次比较深，会造成栈溢出。
+                如果递归的层次比较深，会造成栈溢出。 Exception in thread "main" java.lang.StackOverflowError
             如果不使用递归无法解决问题的话，就必须要使用递归
                 比如：输出某个磁盘目录下的所有文件名称
 
