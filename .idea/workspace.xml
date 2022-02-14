@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="array">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mac.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/BreakDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/basic/Fabonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/CollectionsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListAndSet/ListSetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/ListArrayConver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/Map/MapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/collection/test$subInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/file/FileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/InputStreamReaderDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/handlerStream/OutPutStreamWriterDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Javase/io/streamType/DataStreamDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,14 +196,7 @@
       <workItem from="1644034772099" duration="1390000" />
       <workItem from="1644050757238" duration="13847000" />
       <workItem from="1644490858275" duration="2415000" />
-      <workItem from="1644680664599" duration="6260000" />
-    </task>
-    <task id="LOCAL-00098" summary="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。">
-      <created>1641700541160</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1641700541160</updated>
+      <workItem from="1644680664599" duration="6900000" />
     </task>
     <task id="LOCAL-00099" summary="方法的引用---静态方法的引用,如果函数式接口方法的实现，恰好可以通过调用另一个已存在的方法来实现，那么就有可能使用方法的引用。">
       <created>1641700600096</created>
@@ -552,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644753837464</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="break">
+      <created>1644842945707</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1644842945707</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +562,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="方法的引用---对象方法的引用" />
     <MESSAGE value="方法的引用---构造函数的方法引用" />
     <MESSAGE value="Stream Api--stream的创建" />
     <MESSAGE value="Stream Api--stream的生成" />
@@ -598,7 +586,8 @@
     <MESSAGE value="some note" />
     <MESSAGE value="return" />
     <MESSAGE value="array" />
-    <option name="LAST_COMMIT_MESSAGE" value="array" />
+    <MESSAGE value="break" />
+    <option name="LAST_COMMIT_MESSAGE" value="break" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
