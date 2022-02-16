@@ -48,5 +48,8 @@ public class TicketPrice {
         }
 
         System.out.println("购买机票的价格：==" + price);
+
+
+        System.out.println("新分支上的修改");
     }
 }
