@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/TicketPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/SwitchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Shopping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zu6qE2vunj4dHgV83GrQ4pb8L1" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReturnDemo" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.Fabonacci" />
         <item itemvalue="Application.BreakDemo" />
         <item itemvalue="Application.ArgsDemo" />
-        <item itemvalue="Application.ReturnDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -199,13 +202,6 @@
       <workItem from="1644050757238" duration="13847000" />
       <workItem from="1644490858275" duration="2415000" />
       <workItem from="1644680664599" duration="7897000" />
-    </task>
-    <task id="LOCAL-00101" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
-      <created>1641712299665</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1641712299665</updated>
     </task>
     <task id="LOCAL-00102" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
       <created>1641712374961</created>
@@ -543,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644844090303</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="branch1上的修改">
+      <created>1645011836198</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1645011836198</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,8 +558,30 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="217" />
+                  <entry key="3" value="227" />
+                  <entry key="4" value="226" />
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="branch-1" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -564,7 +589,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Stream Api--stream的创建" />
     <MESSAGE value="Stream Api--stream的生成" />
     <MESSAGE value="Stream的生成--通过数组生成" />
     <MESSAGE value="Stream的生成--通过集合" />
@@ -589,7 +613,8 @@
     <MESSAGE value="array" />
     <MESSAGE value="break" />
     <MESSAGE value="递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归" />
+    <MESSAGE value="branch1上的修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch1上的修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
