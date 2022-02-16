@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0cc9f9-d9b2-457d-bed7-62ee769368e5" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/basic/TicketPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/SwitchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +77,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TicketPrice">
+  <component name="RunManager" selected="Application.MultiplicationTable">
+    <configuration name="ArgsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ArgsDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.BreakDemo" />
+      <module name="Javase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fabonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.Fabonacci" />
       <module name="Javase" />
@@ -102,34 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.SwitchDemo" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.TicketPrice" />
-      <module name="Javase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="operator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.operator" />
+    <configuration name="ReturnDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.ReturnDemo" />
       <module name="Javase" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicketPrice" />
-        <item itemvalue="Application.SwitchDemo" />
-        <item itemvalue="Application.operator" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.Fabonacci" />
+        <item itemvalue="Application.BreakDemo" />
+        <item itemvalue="Application.ArgsDemo" />
+        <item itemvalue="Application.ReturnDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,21 @@
       <workItem from="1644034772099" duration="1390000" />
       <workItem from="1644050757238" duration="13847000" />
       <workItem from="1644490858275" duration="2415000" />
-      <workItem from="1644680664599" duration="13044000" />
+      <workItem from="1644680664599" duration="7897000" />
+    </task>
+    <task id="LOCAL-00101" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
+      <created>1641712299665</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1641712299665</updated>
+    </task>
+    <task id="LOCAL-00102" summary="方法的引用---实例方法的引用，如果在使用方法引用时，要调用已存在的非静态方法，就有可能使用实例方法的引用，new instance::methodName">
+      <created>1641712374961</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1641712374962</updated>
     </task>
     <task id="LOCAL-00103" summary="方法的引用---对象方法的引用">
       <created>1641714247595</created>
@@ -527,21 +543,7 @@
       <option name="project" value="LOCAL" />
       <updated>1644844090303</updated>
     </task>
-    <task id="LOCAL-00150" summary="循环">
-      <created>1644844645615</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1644844645615</updated>
-    </task>
-    <task id="LOCAL-00151" summary="basic exec">
-      <created>1644934181059</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1644934181059</updated>
-    </task>
-    <option name="localTasksCounter" value="152" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,6 +564,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Stream Api--stream的创建" />
+    <MESSAGE value="Stream Api--stream的生成" />
     <MESSAGE value="Stream的生成--通过数组生成" />
     <MESSAGE value="Stream的生成--通过集合" />
     <MESSAGE value="Stream的生成--集合、数组生成的Stream" />
@@ -585,9 +589,7 @@
     <MESSAGE value="array" />
     <MESSAGE value="break" />
     <MESSAGE value="递归" />
-    <MESSAGE value="循环" />
-    <MESSAGE value="basic exec" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic exec" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
