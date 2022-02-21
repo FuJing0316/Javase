@@ -31,8 +31,8 @@ public class WrapClass {
         Integer i4 = new Integer(40);
         Integer i5 = new Integer(40);
         Integer i6 = new Integer(0);
-        Double d1=1.0;
-        Double d2=1.0;
+        Double d1 = 1.0;
+        Double d2 = 1.0;
 
         System.out.println("i=i0\t" + (i == i0));
         System.out.println("i1=i2\t" + (i1 == i2));
