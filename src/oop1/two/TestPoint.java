@@ -16,7 +16,7 @@ public class TestPoint {
         p2.setX(4);
         p2.setY(5);
 
-        System.out.println("两点之间的距离=="+calDistance(p1, p2));
+        System.out.println("two point distance=="+calDistance(p1, p2));
 
 
     }
