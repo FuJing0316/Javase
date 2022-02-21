@@ -11,6 +11,18 @@ public class Admin {
 
     private String pwd;
 
+    public Admin(){
+    }
+
+    public Admin(String name,String pwd){
+        this.name = name;
+        this.pwd = pwd;
+    }
+
+    public Admin(String name){
+        this.name = "lucy";
+    }
+
     public String getName() {
         return name;
     }
