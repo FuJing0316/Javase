@@ -18,6 +18,7 @@ public class ExtendsTest {
 
 class Animal{
     private String eye;
+
     private String age;
 
 
