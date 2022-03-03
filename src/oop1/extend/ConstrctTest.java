@@ -23,7 +23,7 @@ class A{
 }
 
 
-class B extends A{
+class B extends Student {
     public B(){
 
     }
