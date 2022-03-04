@@ -11,6 +11,8 @@ public class test {
         Student student = new Student();
         System.out.println(student.toString());
 
+
+
         Teacher teacher = new Teacher();
         teacher.setName("teacher");
         teacher.setGrade("三年级");
