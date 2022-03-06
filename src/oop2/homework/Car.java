@@ -8,7 +8,12 @@ package oop2.homework;
  */
 public class Car extends MotorVehicle {
 
-    private String type;
+    /**
+     *   类型： 1-别克商务舱GL8；2-宝马550i；3-别克林荫大道
+     *   别克商务舱GL8   宝马550i  别克林荫大道
+     *    600            500        300
+     */
+    private String type;//轿车类型（区别父类中的共有属性：品牌、NO）
 
     public Car() {
     }
@@ -18,11 +23,13 @@ public class Car extends MotorVehicle {
     }
 
     @Override
-    public int calRent(int days) {
+    public int calculateRent(int days) {
         if ("1".equals(type)) {
-            return 700 * days;
+            return 600 * days;
         } else if ("2".equals(type)) {
             return 500 * days;
+        }else if ("3".equals(type)){
+            return 300 * days;
         } else {
             System.out.println("车型不正确");
             return 0;

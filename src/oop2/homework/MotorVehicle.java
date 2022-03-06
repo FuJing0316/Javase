@@ -3,14 +3,15 @@ package oop2.homework;
 /**
  * @Author: fujing
  * @Date: 2022/2/8
- * @Description:
+ * @Description: 机动车
  * @Version: 1.0
  */
 public abstract class MotorVehicle {
-    private String no;
-    private String brand;
 
-    //根据租赁天数计算租金
-    public abstract int calRent(int days);
+    private String brand;//品牌
+    private String no;//车牌
+
+    //按天计算租金
+    public abstract int calculateRent(int days);
 
 }
