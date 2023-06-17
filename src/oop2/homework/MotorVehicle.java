@@ -13,4 +13,6 @@ public abstract class MotorVehicle {
     //根据租赁天数计算租金
     public abstract int calRent(int days);
 
+
+
 }
